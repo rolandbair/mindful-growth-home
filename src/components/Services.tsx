@@ -1,0 +1,92 @@
+
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { users, laptop, layers } from "lucide-react";
+
+const Services = () => {
+  const services = [
+    {
+      icon: users,
+      title: "Inclusive Leadership",
+      description: "Build diverse, equitable leadership structures that empower every voice in your educational community.",
+      features: [
+        "Leadership diversity audits",
+        "Inclusive decision-making frameworks",
+        "Cultural competency training",
+        "Equity-focused governance models"
+      ],
+      color: "from-green-500 to-emerald-600"
+    },
+    {
+      icon: laptop,
+      title: "Digitalization",
+      description: "Transform your school with cutting-edge technology solutions that enhance learning and administration.",
+      features: [
+        "Digital infrastructure planning",
+        "Learning management systems",
+        "Data analytics and insights",
+        "Technology integration training"
+      ],
+      color: "from-blue-500 to-cyan-600"
+    },
+    {
+      icon: layers,
+      title: "Organizational Development",
+      description: "Optimize your school's structure, processes, and culture for sustainable growth and excellence.",
+      features: [
+        "Strategic planning facilitation",
+        "Change management support",
+        "Performance optimization",
+        "Culture transformation"
+      ],
+      color: "from-purple-500 to-violet-600"
+    }
+  ];
+
+  return (
+    <section id="services" className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+            Our Core Services
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            We provide comprehensive solutions to help your school thrive in the modern educational landscape
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-3 gap-8">
+          {services.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <Card key={index} className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg">
+                <CardHeader className="text-center pb-4">
+                  <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.color} mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>
+                    <IconComponent size={32} className="text-white" />
+                  </div>
+                  <CardTitle className="text-2xl font-bold text-gray-900">
+                    {service.title}
+                  </CardTitle>
+                  <CardDescription className="text-gray-600 text-lg">
+                    {service.description}
+                  </CardDescription>
+                </CardHeader>
+                <CardContent>
+                  <ul className="space-y-3">
+                    {service.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-start">
+                        <div className={`w-2 h-2 rounded-full bg-gradient-to-r ${service.color} mt-2 mr-3 flex-shrink-0`}></div>
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;
