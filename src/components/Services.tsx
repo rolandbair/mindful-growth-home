@@ -1,11 +1,11 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { users, laptop, layers } from "lucide-react";
+import { Users, Laptop, Layers } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: users,
+      icon: Users,
       title: "Inclusive Leadership",
       description: "Build diverse, equitable leadership structures that empower every voice in your educational community.",
       features: [
@@ -17,7 +17,7 @@ const Services = () => {
       color: "from-green-500 to-emerald-600"
     },
     {
-      icon: laptop,
+      icon: Laptop,
       title: "Digitalization",
       description: "Transform your school with cutting-edge technology solutions that enhance learning and administration.",
       features: [
@@ -29,7 +29,7 @@ const Services = () => {
       color: "from-blue-500 to-cyan-600"
     },
     {
-      icon: layers,
+      icon: Layers,
       title: "Organizational Development",
       description: "Optimize your school's structure, processes, and culture for sustainable growth and excellence.",
       features: [
