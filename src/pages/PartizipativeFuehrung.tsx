@@ -137,12 +137,14 @@ const PartizipativeFuehrung = () => {
             <p className="text-xl text-green-100 mb-8">
               Lassen Sie uns gemeinsam eine Führungskultur entwickeln, die alle Stimmen einbezieht und nachhaltigen Erfolg schafft.
             </p>
-            <Button 
-              size="lg"
-              className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
-            >
-              Beratung anfragen
-            </Button>
+            <a href="mailto:hello@schulentwickler.at?subject=Beratung Partizipative Führung">
+              <Button 
+                size="lg"
+                className="bg-white text-green-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
+              >
+                Beratung anfragen
+              </Button>
+            </a>
           </div>
         </section>
       </main>

@@ -60,7 +60,11 @@ const Services = () => {
           {services.map((service, index) => {
             const IconComponent = service.icon;
             return (
-              <Link key={index} to={service.link}>
+              <Link 
+                key={index} 
+                to={service.link}
+                onClick={() => window.scrollTo(0, 0)}
+              >
                 <Card className="group hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border-0 shadow-lg cursor-pointer h-full">
                   <CardHeader className="text-center pb-4">
                     <div className={`w-16 h-16 rounded-2xl bg-gradient-to-r ${service.color} mx-auto mb-4 flex items-center justify-center group-hover:scale-110 transition-transform duration-300`}>

@@ -30,11 +30,12 @@ const UeberUns = () => {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-3xl">
-                <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop"
-                  alt="Roland Bair"
-                  className="w-full h-80 object-cover rounded-2xl shadow-lg"
-                />
+                <div className="w-full h-80 bg-gray-200 rounded-2xl shadow-lg flex items-center justify-center">
+                  <div className="text-center text-gray-500">
+                    <div className="text-lg font-semibold mb-2">Profilbild</div>
+                    <div className="text-sm">wird bald hochgeladen</div>
+                  </div>
+                </div>
               </div>
               <div className="space-y-6">
                 <div>
