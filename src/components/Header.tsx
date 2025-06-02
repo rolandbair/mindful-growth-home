@@ -25,10 +25,10 @@ const Header = () => {
             <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Dienstleistungen
             </a>
-            <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <Link to="/ueber-uns" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Über uns
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            </Link>
+            <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
               Kontakt
             </a>
           </nav>
@@ -50,10 +50,10 @@ const Header = () => {
               <a href="#services" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
                 Dienstleistungen
               </a>
-              <a href="#about" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              <Link to="/ueber-uns" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
                 Über uns
-              </a>
-              <a href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              </Link>
+              <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
                 Kontakt
               </a>
             </nav>

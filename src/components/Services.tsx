@@ -23,9 +23,9 @@ const Services = () => {
       description: "Transformieren Sie Ihre Schule mit modernen Technologielösungen für besseres Lernen und Verwaltung.",
       features: [
         "Digitale Infrastrukturplanung",
-        "Lernmanagementsysteme",
+        "Kommunikationsplattformen",
         "Datenanalyse und Erkenntnisse",
-        "Technologie-Integrationstraining"
+        "Digitalisierungstrainings"
       ],
       color: "from-blue-500 to-cyan-600",
       link: "/digitalisierung"
@@ -37,7 +37,6 @@ const Services = () => {
       features: [
         "Strategische Planungsbegleitung",
         "Change Management Unterstützung",
-        "Leistungsoptimierung",
         "Kulturtransformation"
       ],
       color: "from-purple-500 to-violet-600",

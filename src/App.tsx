@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import PartizipativeFuehrung from "./pages/PartizipativeFuehrung";
 import Digitalisierung from "./pages/Digitalisierung";
 import Organisationsentwicklung from "./pages/Organisationsentwicklung";
+import UeberUns from "./pages/UeberUns";
 
 const queryClient = new QueryClient();
 
@@ -23,6 +24,7 @@ const App = () => (
           <Route path="/partizipative-fuehrung" element={<PartizipativeFuehrung />} />
           <Route path="/digitalisierung" element={<Digitalisierung />} />
           <Route path="/organisationsentwicklung" element={<Organisationsentwicklung />} />
+          <Route path="/ueber-uns" element={<UeberUns />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

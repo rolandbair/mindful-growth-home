@@ -203,12 +203,14 @@ const Organisationsentwicklung = () => {
               Lassen Sie uns gemeinsam Ihre Schule zu einer lernenden Organisation entwickeln, 
               die sich kontinuierlich weiterentwickelt und an neue Herausforderungen anpasst.
             </p>
-            <Button 
-              size="lg"
-              className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
-            >
-              Organisationsentwicklung starten
-            </Button>
+            <a href="mailto:hello@schulentwickler.at?subject=Organisationsentwicklung Anfrage">
+              <Button 
+                size="lg"
+                className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
+              >
+                Organisationsentwicklung starten
+              </Button>
+            </a>
           </div>
         </section>
       </main>

@@ -38,18 +38,14 @@ const Hero = () => {
               </Button>
             </div>
 
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
-              <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600">500+</div>
-                <div className="text-sm text-gray-600">Transformierte Schulen</div>
+            <div className="space-y-6 pt-8 border-t border-gray-200">
+              <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-blue-600">
+                <p className="text-gray-700 italic">"Warum lernt man das nicht in all den Ausbildungen?"</p>
+                <p className="text-sm text-gray-500 mt-2">— Schulleitung, Wien</p>
               </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600">15+</div>
-                <div className="text-sm text-gray-600">Jahre Erfahrung</div>
-              </div>
-              <div className="text-center">
-                <div className="text-3xl font-bold text-green-600">98%</div>
-                <div className="text-sm text-gray-600">Kundenzufriedenheit</div>
+              <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-purple-600">
+                <p className="text-gray-700 italic">"Ich hab in einer halben Stunde mehr mitgenommen über Schulentwicklung als in den letzten zwei Jahren"</p>
+                <p className="text-sm text-gray-500 mt-2">— Schulleitung, Wien</p>
               </div>
             </div>
           </div>
