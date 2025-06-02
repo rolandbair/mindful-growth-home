@@ -10,9 +10,8 @@ const Services = () => {
       title: "Partizipative Führung",
       description: "Entwicklung partizipativer Führungsstrukturen, die jede Stimme in Ihrer Bildungsgemeinschaft stärken.",
       features: [
-        "Führungsdiversitäts-Audits",
+        "Sparring für Schulleitungen",
         "Partizipative Entscheidungsrahmen",
-        "Kulturelle Kompetenzschulung",
         "Gleichberechtigte Governance-Modelle"
       ],
       color: "from-green-500 to-emerald-600",

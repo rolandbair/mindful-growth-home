@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <h3 className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              EduTransform
+              SchulEntwickler.at
             </h3>
             <p className="text-gray-400">
               Stärkung von Schulen durch partizipative Führung, Digitalisierung und organisatorische Exzellenz.
@@ -28,7 +28,7 @@ const Footer = () => {
             <p>E-Mail: hello@schulentwickler.at</p>
           </div>
           <div className="text-center text-gray-400">
-            <p>&copy; 2024 EduTransform. Alle Rechte vorbehalten.</p>
+            <p>&copy; 2025 SchulEntwickler.at. Alle Rechte vorbehalten.</p>
           </div>
         </div>
       </div>
