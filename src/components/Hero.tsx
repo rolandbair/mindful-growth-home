@@ -1,5 +1,6 @@
 
 import { Button } from "@/components/ui/button";
+import { GraduationCap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -8,6 +9,14 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
+              <div className="flex items-center space-x-3 mb-6">
+                <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
+                  <GraduationCap size={24} className="text-white" />
+                </div>
+                <h2 className="text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+                  SchulEntwickler.at
+                </h2>
+              </div>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Bildung
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
@@ -53,15 +62,10 @@ const Hero = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl bg-gradient-to-br from-blue-100 to-purple-100 p-8 shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=600&h=600&fit=crop"
-                alt="Bildungstransformation"
+                src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=600&fit=crop"
+                alt="Moderne Schulklasse mit Schülern und digitaler Technologie"
                 className="w-full h-full object-cover rounded-2xl shadow-lg"
               />
-            </div>
-            <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-2xl shadow-xl">
-              <div className="text-sm text-gray-600">Digitale Innovation</div>
-              <div className="text-2xl font-bold text-blue-600">+250%</div>
-              <div className="text-sm text-gray-600">Mehr Engagement</div>
             </div>
           </div>
         </div>

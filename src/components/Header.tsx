@@ -1,5 +1,5 @@
 
-import { Menu, X } from "lucide-react";
+import { Menu, X, GraduationCap } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
@@ -28,7 +28,10 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <Link to="/" onClick={() => window.scrollTo(0, 0)} className="flex items-center space-x-3">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
+                <GraduationCap size={18} className="text-white" />
+              </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 SchulEntwickler.at
               </h1>

@@ -11,10 +11,10 @@ const Digitalisierung = () => {
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-cyan-50">
+        <section className="py-20 bg-gradient-to-br from-blue-50 via-white to-purple-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-4xl mx-auto">
-              <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-blue-500 to-cyan-600 mx-auto mb-8 flex items-center justify-center">
+              <div className="w-20 h-20 rounded-3xl bg-gradient-to-r from-blue-600 to-purple-600 mx-auto mb-8 flex items-center justify-center">
                 <Laptop size={40} className="text-white" />
               </div>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
@@ -46,10 +46,10 @@ const Digitalisierung = () => {
                   pädagogischen Ziele stets im Fokus zu behalten.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-blue-100 to-cyan-100 p-8 rounded-3xl">
+              <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-3xl">
                 <img
-                  src="https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?w=600&h=400&fit=crop"
-                  alt="Digitale Bildung"
+                  src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&h=400&fit=crop"
+                  alt="Digitale Schule mit Tablets und modernem Klassenzimmer"
                   className="w-full h-64 object-cover rounded-2xl shadow-lg"
                 />
               </div>
@@ -143,7 +143,7 @@ const Digitalisierung = () => {
         </section>
 
         {/* CTA Section */}
-        <section className="py-20 bg-gradient-to-r from-blue-600 to-cyan-600">
+        <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-white mb-6">
               Starten Sie Ihre digitale Transformation
