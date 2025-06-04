@@ -1,0 +1,232 @@
+
+{
+  "partizipativeLeadership": {
+    "title": "Partizipative Führung",
+    "description": "Entwickeln Sie Führungsstrukturen, die auf Partizipation, Zusammenarbeit und geteilter Verantwortung basieren. Unsere Beratung hilft Ihnen dabei, eine Führungskultur zu schaffen, die alle Stimmen einbezieht und gemeinsame Entscheidungsfindung fördert.",
+    "whatIs": {
+      "title": "Was ist Partizipative Führung?",
+      "description1": "Partizipative Führung ist ein Führungsansatz, der auf geteilter Macht, gemeinsamer Entscheidungsfindung und aktiver Beteiligung aller Beteiligten basiert. Im Schulkontext bedeutet dies, dass Lehrkräfte, Schüler:innen, Eltern und die Gemeinde in wichtige Entscheidungen einbezogen werden.",
+      "description2": "Dieser Ansatz fördert nicht nur die Demokratie in der Bildung, sondern verbessert auch die Qualität der Entscheidungen durch vielfältige Perspektiven und erhöht das Engagement aller Beteiligten."
+    },
+    "benefits": {
+      "title": "Vorteile partizipativer Führung",
+      "betterDecisions": {
+        "title": "Bessere Entscheidungen",
+        "description": "Durch die Einbeziehung verschiedener Perspektiven entstehen durchdachtere und praxisnahe Lösungen."
+      },
+      "higherEngagement": {
+        "title": "Höheres Engagement",
+        "description": "Mitarbeitende und Beteiligte fühlen sich gehört und übernehmen mehr Verantwortung für gemeinsame Ziele."
+      },
+      "sustainableChange": {
+        "title": "Nachhaltige Veränderung",
+        "description": "Partizipativ entwickelte Lösungen werden eher akzeptiert und langfristig umgesetzt."
+      }
+    },
+    "approach": {
+      "title": "Unser Beratungsansatz",
+      "step1": {
+        "title": "Analyse der aktuellen Führungsstrukturen",
+        "description": "Bewertung bestehender Entscheidungsprozesse und Führungskulturen in Ihrer Schule."
+      },
+      "step2": {
+        "title": "Entwicklung partizipativer Strukturen",
+        "description": "Gemeinsame Gestaltung neuer Führungsmodelle und Entscheidungswege."
+      },
+      "step3": {
+        "title": "Schulung und Begleitung",
+        "description": "Training für Führungskräfte und Begleitung bei der Implementierung neuer Prozesse."
+      },
+      "step4": {
+        "title": "Evaluation und Anpassung",
+        "description": "Kontinuierliche Bewertung und Verbesserung der partizipativen Führungsansätze."
+      }
+    },
+    "cta": {
+      "title": "Bereit für partizipative Führung?",
+      "description": "Lassen Sie uns gemeinsam eine Führungskultur entwickeln, die alle Stimmen einbezieht und nachhaltigen Erfolg schafft."
+    },
+    "imageAlt": "Lehrerkonferenz mit partizipativer Diskussion"
+  },
+  "digitalization": {
+    "title": "Digitalisierung",
+    "description": "Transformieren Sie Ihre Schule mit modernen digitalen Lösungen. Wir begleiten Sie auf dem Weg zur digital-integrierten Bildungseinrichtung mit maßgeschneiderten Technologiekonzepten und nachhaltigen Implementierungsstrategien.",
+    "overview": {
+      "title": "Digitale Transformation für Schulen",
+      "description1": "Digitalisierung in der Bildung geht weit über die reine Technologie hinaus. Es geht darum, Lehr- und Lernprozesse zu verbessern, administrative Abläufe zu optimieren und neue Möglichkeiten für kollaboratives Arbeiten zu schaffen.",
+      "description2": "Unsere Expertise hilft Ihnen dabei, digitale Tools sinnvoll zu integrieren und dabei die pädagogischen Ziele stets im Fokus zu behalten."
+    },
+    "areas": {
+      "title": "Unsere Digitalisierungsbereiche",
+      "infrastructure": {
+        "title": "Infrastruktur",
+        "description": "WLAN, Hardware und technische Grundausstattung für moderne Bildung"
+      },
+      "communication": {
+        "title": "Kommunikationsplattformen",
+        "description": "Implementierung von digitalen Kommunikations- und Kollaborationstools"
+      },
+      "mobileLearning": {
+        "title": "Mobile Learning",
+        "description": "Tablets, Smartphones und mobile Lernkonzepte"
+      },
+      "administration": {
+        "title": "Verwaltung",
+        "description": "Digitale Verwaltungsprozesse und Schulmanagement-Software"
+      }
+    },
+    "process": {
+      "title": "Unser Implementierungsprozess",
+      "step1": {
+        "title": "Bestandsaufnahme und Bedarfsanalyse",
+        "description": "Evaluation der aktuellen technischen Ausstattung und Identifikation der Digitalisierungsziele."
+      },
+      "step2": {
+        "title": "Strategieentwicklung",
+        "description": "Erstellung eines maßgeschneiderten Digitalisierungskonzepts mit klaren Zielen und Meilensteinen."
+      },
+      "step3": {
+        "title": "Pilotprojekte und Testing",
+        "description": "Schrittweise Implementierung in kleinen Bereichen zur Erprobung und Optimierung."
+      },
+      "step4": {
+        "title": "Schulung und Change Management",
+        "description": "Umfassende Digitalisierungstrainings für alle Beteiligten und Begleitung des Veränderungsprozesses."
+      },
+      "step5": {
+        "title": "Vollständige Implementierung",
+        "description": "Rollout auf die gesamte Schule mit kontinuierlicher Unterstützung und Optimierung."
+      }
+    },
+    "cta": {
+      "title": "Starten Sie Ihre digitale Transformation",
+      "description": "Lassen Sie uns gemeinsam den Weg in die digitale Zukunft Ihrer Schule gestalten – strategisch, nachhaltig und erfolgreich."
+    },
+    "imageAlt": "Digitale Schule mit Tablets und modernem Klassenzimmer"
+  },
+  "organizationalDevelopment": {
+    "title": "Organisationsentwicklung",
+    "description": "Optimieren Sie Struktur, Prozesse und Kultur Ihrer Schule für nachhaltigen Erfolg. Unsere systemische Beratung hilft Ihnen dabei, eine lernende Organisation zu werden, die sich kontinuierlich weiterentwickelt und an verändernde Anforderungen anpasst.",
+    "whatIs": {
+      "title": "Was ist Organisationsentwicklung?",
+      "description1": "Organisationsentwicklung ist ein geplanter, systematischer und langfristiger Prozess zur Verbesserung der Leistungsfähigkeit und Anpassungsfähigkeit einer Organisation. Im Schulkontext bedeutet dies die kontinuierliche Weiterentwicklung aller Aspekte des Schullebens.",
+      "description2": "Dabei stehen die Menschen im Mittelpunkt: Lehrkräfte, Schüler:innen, Eltern und alle anderen Beteiligten werden aktiv in den Entwicklungsprozess einbezogen."
+    },
+    "areas": {
+      "title": "Unsere Entwicklungsbereiche",
+      "processes": {
+        "title": "Prozesse",
+        "description": "Optimierung von Arbeitsabläufen und Entscheidungsstrukturen"
+      },
+      "culture": {
+        "title": "Kultur",
+        "description": "Entwicklung einer positiven und innovativen Schulkultur"
+      },
+      "structure": {
+        "title": "Struktur",
+        "description": "Anpassung von Organisationsstrukturen und Hierarchien"
+      },
+      "strategy": {
+        "title": "Strategie",
+        "description": "Entwicklung langfristiger Ziele und Entwicklungspläne"
+      }
+    },
+    "methodology": {
+      "title": "Unser systemischer Ansatz",
+      "step1": {
+        "title": "Systemanalyse",
+        "description": "Umfassende Analyse der aktuellen Organisationsstrukturen, Prozesse und Kultur."
+      },
+      "step2": {
+        "title": "Zielentwicklung",
+        "description": "Gemeinsame Definition von Entwicklungszielen mit allen Beteiligten."
+      },
+      "step3": {
+        "title": "Interventionsplanung",
+        "description": "Entwicklung maßgeschneiderter Maßnahmen und Interventionen."
+      },
+      "step4": {
+        "title": "Umsetzungsbegleitung",
+        "description": "Aktive Unterstützung bei der Implementierung von Veränderungsprozessen."
+      },
+      "step5": {
+        "title": "Evaluation & Anpassung",
+        "description": "Kontinuierliche Bewertung der Fortschritte und Anpassung der Maßnahmen."
+      },
+      "step6": {
+        "title": "Nachhaltigkeit",
+        "description": "Sicherstellung der langfristigen Verankerung der Entwicklungen."
+      }
+    },
+    "successFactors": {
+      "title": "Erfolgsfaktoren unserer Beratung",
+      "participation": {
+        "title": "Partizipation",
+        "description": "Alle Beteiligten werden aktiv in den Entwicklungsprozess einbezogen und gestalten mit."
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Veränderungen werden so gestaltet, dass sie langfristig wirken und sich selbst tragen."
+      },
+      "systematic": {
+        "title": "Systematik",
+        "description": "Strukturiertes Vorgehen mit klaren Methoden und nachvollziehbaren Schritten."
+      }
+    },
+    "cta": {
+      "title": "Entwickeln Sie Ihre Organisation weiter",
+      "description": "Lassen Sie uns gemeinsam Ihre Schule zu einer lernenden Organisation entwickeln, die sich kontinuierlich weiterentwickelt und an neue Herausforderungen anpasst."
+    },
+    "imageAlt": "Schulteam bei strategischer Planung und Organisationsentwicklung"
+  },
+  "about": {
+    "title": "Über uns",
+    "description": "SchulEntwickler.at verbindet langjährige Erfahrung in Technologie und Führung mit tiefer Expertise in der Schulentwicklung.",
+    "roland": {
+      "name": "Roland Bair",
+      "title": "Gründer & Schulentwicklungsberater",
+      "experience1": {
+        "title": "Mehr als 20 Jahre Technologie-Erfahrung",
+        "description": "Umfassende Expertise in der Entwicklung und Implementierung von Bildungstechnologien"
+      },
+      "experience2": {
+        "title": "10 Jahre in Führungspositionen",
+        "description": "Langjährige Erfahrung in der strategischen Unternehmensführung und Teamentwicklung"
+      },
+      "experience3": {
+        "title": "Ehemaliger CEO von Untis GmbH",
+        "description": "Führung eines der führenden Unternehmen für Schulverwaltungssoftware im deutschsprachigen Raum"
+      },
+      "experience4": {
+        "title": "Strategic EdTech Advisor",
+        "description": "Beratung von Bildungseinrichtungen und EdTech-Unternehmen bei strategischen Entscheidungen"
+      },
+      "experience5": {
+        "title": "Schulentwicklung seit Januar 2025",
+        "description": "Fokus auf partizipative Führung, Digitalisierung und Organisationsentwicklung in Schulen"
+      },
+      "linkedin": "LinkedIn Profil besuchen",
+      "profileImageAlt": "Profilbild wird bald hochgeladen"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Wir glauben, dass jede Schule das Potenzial hat, eine Umgebung zu schaffen, in der Schüler:innen, Lehrkräfte und die gesamte Schulgemeinschaft gedeihen können. Durch die Verbindung von Technologie-Expertise mit pädagogischer Praxis unterstützen wir Schulen dabei, moderne Bildungskonzepte erfolgreich umzusetzen.",
+      "participation": {
+        "title": "Partizipation",
+        "description": "Alle Stimmen zählen – wir fördern demokratische Entscheidungsprozesse in Schulen"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Moderne Technologien sinnvoll in den Schulalltag integrieren"
+      },
+      "sustainability": {
+        "title": "Nachhaltigkeit",
+        "description": "Langfristige Veränderungen schaffen, die sich selbst tragen"
+      }
+    },
+    "cta": {
+      "title": "Lassen Sie uns Ihre Schule transformieren",
+      "description": "Bereit für den nächsten Schritt? Kontaktieren Sie uns für ein unverbindliches Gespräch über die Möglichkeiten Ihrer Schulentwicklung."
+    }
+  }
+}

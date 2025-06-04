@@ -1,0 +1,22 @@
+
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "buttons": {
+    "startTransformation": "Start Transformation",
+    "learnMore": "Learn More",
+    "requestConsultation": "Request Consultation",
+    "scheduleCall": "Schedule Call",
+    "requestDigitalizationConsulting": "Request Digitalization Consulting",
+    "startOrganizationalDevelopment": "Start Organizational Development"
+  },
+  "footer": {
+    "description": "Empowering schools through participatory leadership, digitalization and organizational excellence.",
+    "email": "Email: hello@schulentwickler.at",
+    "copyright": "© 2025 SchulEntwickler.at. All rights reserved."
+  }
+}

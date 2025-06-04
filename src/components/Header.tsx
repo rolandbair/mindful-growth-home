@@ -1,11 +1,14 @@
 
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X, GraduationCap, Globe } from "lucide-react";
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
+import { useTranslation } from "@/hooks/useTranslation";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
+  const { t, changeLanguage, currentLanguage } = useTranslation();
 
   const handleNavigation = (path: string, section?: string) => {
     if (section) {
@@ -23,6 +26,11 @@ const Header = () => {
     setIsMenuOpen(false);
   };
 
+  const toggleLanguage = () => {
+    const newLanguage = currentLanguage === 'de' ? 'en' : 'de';
+    changeLanguage(newLanguage);
+  };
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -38,29 +46,38 @@ const Header = () => {
             </Link>
           </div>
           
-          <nav className="hidden md:flex space-x-8">
+          <nav className="hidden md:flex space-x-8 items-center">
             <button 
               onClick={() => handleNavigation("/", "home")} 
               className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
-              Start
+              {t('navigation.home')}
             </button>
             <button 
               onClick={() => handleNavigation("/", "services")} 
               className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
-              Dienstleistungen
+              {t('navigation.services')}
             </button>
             <Link 
               to="/ueber-uns" 
               onClick={() => window.scrollTo(0, 0)}
               className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
-              Über uns
+              {t('navigation.about')}
             </Link>
             <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-              Kontakt
+              {t('navigation.contact')}
             </a>
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={toggleLanguage}
+              className="ml-4 flex items-center space-x-2"
+            >
+              <Globe size={16} />
+              <span>{currentLanguage === 'de' ? 'EN' : 'DE'}</span>
+            </Button>
           </nav>
 
           <button
@@ -78,24 +95,33 @@ const Header = () => {
                 onClick={() => handleNavigation("/", "home")} 
                 className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-left"
               >
-                Start
+                {t('navigation.home')}
               </button>
               <button 
                 onClick={() => handleNavigation("/", "services")} 
                 className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-left"
               >
-                Dienstleistungen
+                {t('navigation.services')}
               </button>
               <Link 
                 to="/ueber-uns" 
                 onClick={() => { window.scrollTo(0, 0); setIsMenuOpen(false); }}
                 className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
               >
-                Über uns
+                {t('navigation.about')}
               </Link>
               <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
-                Kontakt
+                {t('navigation.contact')}
               </a>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={toggleLanguage}
+                className="w-fit flex items-center space-x-2"
+              >
+                <Globe size={16} />
+                <span>{currentLanguage === 'de' ? 'EN' : 'DE'}</span>
+              </Button>
             </nav>
           </div>
         )}

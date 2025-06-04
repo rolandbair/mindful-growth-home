@@ -2,43 +2,33 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Users, Laptop, Layers } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Services = () => {
+  const { t } = useTranslation('services');
+
   const services = [
     {
       icon: Users,
-      title: "Partizipative Führung",
-      description: "Entwicklung partizipativer Führungsstrukturen, die jede Stimme in Ihrer Bildungsgemeinschaft stärken.",
-      features: [
-        "Sparring für Schulleitungen",
-        "Partizipative Entscheidungsrahmen",
-        "Gleichberechtigte Governance-Modelle"
-      ],
+      title: t('partizipativeLeadership.title'),
+      description: t('partizipativeLeadership.description'),
+      features: t('partizipativeLeadership.features', { returnObjects: true }) as string[],
       color: "from-blue-500 to-purple-600",
       link: "/partizipative-fuehrung"
     },
     {
       icon: Laptop,
-      title: "Digitalisierung",
-      description: "Transformieren Sie Ihre Schule mit modernen Technologielösungen für besseres Lernen und Verwaltung.",
-      features: [
-        "Digitale Infrastrukturplanung",
-        "Kommunikationsplattformen",
-        "Datenanalyse und Erkenntnisse",
-        "Digitalisierungstrainings"
-      ],
+      title: t('digitalization.title'),
+      description: t('digitalization.description'),
+      features: t('digitalization.features', { returnObjects: true }) as string[],
       color: "from-blue-500 to-cyan-600",
       link: "/digitalisierung"
     },
     {
       icon: Layers,
-      title: "Organisationsentwicklung",
-      description: "Optimierung der Struktur, Prozesse und Kultur Ihrer Schule für nachhaltiges Wachstum und Exzellenz.",
-      features: [
-        "Strategische Planungsbegleitung",
-        "Change Management Unterstützung",
-        "Kulturtransformation"
-      ],
+      title: t('organizationalDevelopment.title'),
+      description: t('organizationalDevelopment.description'),
+      features: t('organizationalDevelopment.features', { returnObjects: true }) as string[],
       color: "from-purple-500 to-violet-600",
       link: "/organisationsentwicklung"
     }
@@ -49,10 +39,10 @@ const Services = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            Unsere Kerndienstleistungen
+            {t('title')}
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Wir bieten umfassende Lösungen, damit Ihre Schule in der modernen Bildungslandschaft erfolgreich ist
+            {t('description')}
           </p>
         </div>
 

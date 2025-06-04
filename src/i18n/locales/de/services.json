@@ -1,0 +1,33 @@
+
+{
+  "title": "Unsere Kerndienstleistungen",
+  "description": "Wir bieten umfassende Lösungen, damit Ihre Schule in der modernen Bildungslandschaft erfolgreich ist",
+  "partizipativeLeadership": {
+    "title": "Partizipative Führung",
+    "description": "Entwicklung partizipativer Führungsstrukturen, die jede Stimme in Ihrer Bildungsgemeinschaft stärken.",
+    "features": [
+      "Sparring für Schulleitungen",
+      "Partizipative Entscheidungsrahmen",
+      "Gleichberechtigte Governance-Modelle"
+    ]
+  },
+  "digitalization": {
+    "title": "Digitalisierung",
+    "description": "Transformieren Sie Ihre Schule mit modernen Technologielösungen für besseres Lernen und Verwaltung.",
+    "features": [
+      "Digitale Infrastrukturplanung",
+      "Kommunikationsplattformen",
+      "Datenanalyse und Erkenntnisse",
+      "Digitalisierungstrainings"
+    ]
+  },
+  "organizationalDevelopment": {
+    "title": "Organisationsentwicklung",
+    "description": "Optimierung der Struktur, Prozesse und Kultur Ihrer Schule für nachhaltiges Wachstum und Exzellenz.",
+    "features": [
+      "Strategische Planungsbegleitung",
+      "Change Management Unterstützung",
+      "Kulturtransformation"
+    ]
+  }
+}

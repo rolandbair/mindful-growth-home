@@ -1,0 +1,101 @@
+
+{
+  "partizipativeLeadership": {
+    "title": "Participatory Leadership",
+    "description": "Develop leadership structures based on participation, collaboration and shared responsibility. Our consulting helps you create a leadership culture that includes all voices and promotes collaborative decision-making.",
+    "whatIs": {
+      "title": "What is Participatory Leadership?",
+      "description1": "Participatory leadership is a leadership approach based on shared power, collaborative decision-making and active participation of all stakeholders. In the school context, this means that teachers, students, parents and the community are involved in important decisions.",
+      "description2": "This approach not only promotes democracy in education, but also improves the quality of decisions through diverse perspectives and increases the engagement of all participants."
+    },
+    "benefits": {
+      "title": "Benefits of participatory leadership",
+      "betterDecisions": {
+        "title": "Better Decisions",
+        "description": "By including different perspectives, more thoughtful and practical solutions emerge."
+      },
+      "higherEngagement": {
+        "title": "Higher Engagement",
+        "description": "Employees and stakeholders feel heard and take more responsibility for common goals."
+      },
+      "sustainableChange": {
+        "title": "Sustainable Change",
+        "description": "Participatory developed solutions are more likely to be accepted and implemented long-term."
+      }
+    },
+    "approach": {
+      "title": "Our Consulting Approach",
+      "step1": {
+        "title": "Analysis of current leadership structures",
+        "description": "Assessment of existing decision-making processes and leadership cultures in your school."
+      },
+      "step2": {
+        "title": "Development of participatory structures",
+        "description": "Collaborative design of new leadership models and decision-making pathways."
+      },
+      "step3": {
+        "title": "Training and support",
+        "description": "Training for leaders and support in implementing new processes."
+      },
+      "step4": {
+        "title": "Evaluation and adjustment",
+        "description": "Continuous assessment and improvement of participatory leadership approaches."
+      }
+    },
+    "cta": {
+      "title": "Ready for participatory leadership?",
+      "description": "Let's work together to develop a leadership culture that includes all voices and creates sustainable success."
+    },
+    "imageAlt": "Teacher conference with participatory discussion"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "SchulEntwickler.at combines many years of experience in technology and leadership with deep expertise in school development.",
+    "roland": {
+      "name": "Roland Bair",
+      "title": "Founder & School Development Consultant",
+      "experience1": {
+        "title": "More than 20 years of technology experience",
+        "description": "Comprehensive expertise in the development and implementation of educational technologies"
+      },
+      "experience2": {
+        "title": "10 years in leadership positions",
+        "description": "Long-standing experience in strategic business management and team development"
+      },
+      "experience3": {
+        "title": "Former CEO of Untis GmbH",
+        "description": "Leadership of one of the leading companies for school administration software in the German-speaking region"
+      },
+      "experience4": {
+        "title": "Strategic EdTech Advisor",
+        "description": "Consulting educational institutions and EdTech companies on strategic decisions"
+      },
+      "experience5": {
+        "title": "School development since January 2025",
+        "description": "Focus on participatory leadership, digitalization and organizational development in schools"
+      },
+      "linkedin": "Visit LinkedIn profile",
+      "profileImageAlt": "Profile picture will be uploaded soon"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "We believe that every school has the potential to create an environment where students, teachers and the entire school community can thrive. By connecting technology expertise with pedagogical practice, we support schools in successfully implementing modern educational concepts.",
+      "participation": {
+        "title": "Participation",
+        "description": "All voices count – we promote democratic decision-making processes in schools"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "Meaningfully integrate modern technologies into everyday school life"
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Create long-term changes that sustain themselves"
+      }
+    },
+    "cta": {
+      "title": "Let us transform your school",
+      "description": "Ready for the next step? Contact us for a non-binding conversation about the possibilities of your school development."
+    }
+  }
+}

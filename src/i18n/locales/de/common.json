@@ -1,0 +1,22 @@
+
+{
+  "navigation": {
+    "home": "Start",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "buttons": {
+    "startTransformation": "Transformation starten",
+    "learnMore": "Mehr erfahren",
+    "requestConsultation": "Beratung anfragen",
+    "scheduleCall": "Gespräch vereinbaren",
+    "requestDigitalizationConsulting": "Digitalisierungsberatung anfragen",
+    "startOrganizationalDevelopment": "Organisationsentwicklung starten"
+  },
+  "footer": {
+    "description": "Stärkung von Schulen durch partizipative Führung, Digitalisierung und organisatorische Exzellenz.",
+    "email": "E-Mail: hello@schulentwickler.at",
+    "copyright": "© 2025 SchulEntwickler.at. Alle Rechte vorbehalten."
+  }
+}
