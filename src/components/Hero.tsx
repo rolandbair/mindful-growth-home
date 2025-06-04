@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { GraduationCap } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -9,14 +8,6 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 flex items-center justify-center">
-                  <GraduationCap size={24} className="text-white" />
-                </div>
-                <h2 className="text-xl font-semibold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                  SchulEntwickler.at
-                </h2>
-              </div>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Bildung
                 <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">

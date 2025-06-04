@@ -50,7 +50,7 @@ const Organisationsentwicklung = () => {
               </div>
               <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-3xl">
                 <img
-                  src="https://images.unsplash.com/photo-1573496267-71c3c0fbbb8e?w=600&h=400&fit=crop"
+                  src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&h=400&fit=crop"
                   alt="Schulteam bei strategischer Planung und Organisationsentwicklung"
                   className="w-full h-64 object-cover rounded-2xl shadow-lg"
                 />

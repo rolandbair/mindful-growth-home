@@ -14,7 +14,7 @@ const Services = () => {
         "Partizipative Entscheidungsrahmen",
         "Gleichberechtigte Governance-Modelle"
       ],
-      color: "from-green-500 to-emerald-600",
+      color: "from-blue-500 to-purple-600",
       link: "/partizipative-fuehrung"
     },
     {
