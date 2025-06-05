@@ -5,6 +5,17 @@ import { useTranslation } from "@/hooks/useTranslation";
 const Hero = () => {
   const { t } = useTranslation('hero');
 
+  const handleStartTransformation = () => {
+    window.location.href = 'mailto:hello@schulentwickler.at?subject=Transformation starten&body=Hallo, ich möchte gerne mehr über Ihre Transformationsdienstleistungen erfahren.';
+  };
+
+  const handleLearnMore = () => {
+    const servicesSection = document.getElementById('services');
+    if (servicesSection) {
+      servicesSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -28,6 +39,7 @@ const Hero = () => {
               <Button 
                 size="lg" 
                 className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
+                onClick={handleStartTransformation}
               >
                 {t('buttons.startTransformation', { ns: 'common' })}
               </Button>
@@ -35,6 +47,7 @@ const Hero = () => {
                 variant="outline" 
                 size="lg"
                 className="border-2 border-gray-300 hover:border-blue-600 hover:text-blue-600 px-8 py-3 text-lg font-semibold transition-all duration-300"
+                onClick={handleLearnMore}
               >
                 {t('buttons.learnMore', { ns: 'common' })}
               </Button>
