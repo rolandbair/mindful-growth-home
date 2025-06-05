@@ -20,9 +20,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">{t('navigation.services')}</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="/partizipative-fuehrung" className="hover:text-white transition-colors">{t('services.partizipativeLeadership.title', { ns: 'services' })}</a></li>
-              <li><a href="/digitalisierung" className="hover:text-white transition-colors">{t('services.digitalization.title', { ns: 'services' })}</a></li>
-              <li><a href="/organisationsentwicklung" className="hover:text-white transition-colors">{t('services.organizationalDevelopment.title', { ns: 'services' })}</a></li>
+              <li><a href="/partizipative-fuehrung" className="hover:text-white transition-colors">{t('partizipativeLeadership.title', { ns: 'services' })}</a></li>
+              <li><a href="/digitalisierung" className="hover:text-white transition-colors">{t('digitalization.title', { ns: 'services' })}</a></li>
+              <li><a href="/organisationsentwicklung" className="hover:text-white transition-colors">{t('organizationalDevelopment.title', { ns: 'services' })}</a></li>
             </ul>
           </div>
         </div>
