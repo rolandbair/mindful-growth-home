@@ -405,3 +405,90 @@
   margin-top: 0.5rem;
   padding-left: 1.25rem;
 }
+/* Print Styles */
+@media print {
+  /* When we print via the cloning strategy, scope to the cloned root */
+  html.printing body > *:not(#print-root) {
+    display: none !important;
+  }
+  html.printing #print-root {
+    display: block !important;
+    position: static !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  html.printing #print-root #resume-content {
+    max-width: none !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+  /* Normalize root sizing to avoid phantom whitespace */
+  html, body {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: auto !important;
+    background: white !important;
+  }
+
+  /* Hide the SPA root; overlay renders via a portal on body */
+  /* Note: With cloning strategy, #root can stay visible; it is hidden by html.printing rules */
+  /* Force backgrounds and colors to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Page setup */
+  @page {
+    margin: 0.75in 0.5in;
+    size: letter;
+  }
+
+  /* Hide interactive elements when printing, if any remain in content */
+  .no-print,
+  button,
+  .sticky {
+    display: none !important;
+  }
+
+  /* Fix competency icons layout in print (gap can be unreliable) */
+  .competency-title-with-icon {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+    gap: 0 !important;
+  }
+
+  .competency-icon {
+    margin-right: 0.75rem !important;
+    flex-shrink: 0 !important;
+    display: inline-block !important;
+  }
+
+  /* Avoid breaking key blocks across pages */
+  .resume-section,
+  .resume-experience-item {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  /* Keep contact info inline in print */
+  .resume-contact-header div {
+    display: flex !important;
+    flex-direction: row !important;
+    gap: 0.75rem !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .resume-contact-header span {
+    display: inline !important;
+  }
+
+  /* Add spacing between the blue line and the "PROFIL" section in print */
+  .resume-name-header div {
+    /* the small blue rule under the name */
+    margin: 2rem auto 1rem !important; /* add bottom space under the line */
+  }
+}

@@ -1,5 +1,6 @@
 import { X, Download, Share2, Printer } from "lucide-react";
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import ResumeContent from "./ResumeContent";
 
 interface ResumeOverlayProps {
@@ -11,108 +12,40 @@ const ResumeOverlay = ({ isOpen, onClose }: ResumeOverlayProps) => {
   const [showShareOptions, setShowShareOptions] = useState(false);
 
   const handlePrint = () => {
-    // Open a new window for printing
-    const printWindow = window.open('', '_blank');
-    if (printWindow) {
-      printWindow.document.write(`
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <title>Lebenslauf - Roland Bair</title>
-          <style>
-            body { 
-              font-family: 'Inter', sans-serif; 
-              line-height: 1.6; 
-              margin: 0; 
-              padding: 20px; 
-              background: white;
-            }
-            .no-print { display: none !important; }
-            h1 { 
-              font-size: 28px; 
-              font-weight: bold; 
-              text-align: center; 
-              margin-bottom: 10px; 
-            }
-            h2 { 
-              font-size: 18px; 
-              font-weight: 600; 
-              border-bottom: 2px solid #e5e7eb; 
-              padding-bottom: 8px; 
-              margin-bottom: 16px; 
-            }
-            h3 { 
-              font-size: 16px; 
-              font-weight: 600; 
-              margin-bottom: 8px; 
-            }
-            .contact-info { 
-              text-align: center; 
-              margin-bottom: 30px; 
-              color: #666; 
-            }
-            .section { 
-              margin-bottom: 24px; 
-            }
-            ul { 
-              padding-left: 20px; 
-            }
-            li { 
-              margin-bottom: 8px; 
-            }
-            .job-title { 
-              font-weight: 600; 
-            }
-            .job-meta { 
-              color: #666; 
-              font-size: 14px; 
-            }
-            .grid { 
-              display: grid; 
-              grid-template-columns: 1fr 1fr; 
-              gap: 32px; 
-            }
-            @media print { 
-              .grid { 
-                grid-template-columns: 1fr; 
-                gap: 16px; 
-              }
-              /* Page break before Berufserfahrung section */
-              .page-break-before-print {
-                page-break-before: always;
-              }
-            }
-          </style>
-        </head>
-        <body>
-      `);
-      
-      // Get the resume content and inject it
-      const resumeContent = document.getElementById('resume-content');
-      if (resumeContent) {
-        printWindow.document.write(resumeContent.innerHTML);
-      }
-      
-      printWindow.document.write('</body></html>');
-      printWindow.document.close();
-      
-      // Set up print event handlers
-      printWindow.onload = () => {
-        printWindow.print();
-        
-        // Simply close the print window after printing (no redirect needed)
-        printWindow.onafterprint = () => {
-          printWindow.close();
-        };
-        
-        // Fallback for browsers that don't support onafterprint
-        setTimeout(() => {
-          if (!printWindow.closed) {
-            printWindow.close();
-          }
-        }, 1000);
-      };
+    const resume = document.getElementById("resume-content");
+    if (!resume) {
+      window.print();
+      return;
     }
+
+    // Create a print-only root and clone the resume content
+    const printRoot = document.createElement("div");
+    printRoot.id = "print-root";
+    const clone = resume.cloneNode(true) as HTMLElement;
+    printRoot.appendChild(clone);
+    document.body.appendChild(printRoot);
+
+    // Add a class to scope print CSS
+    document.documentElement.classList.add("printing");
+
+    const cleanup = () => {
+      document.documentElement.classList.remove("printing");
+      if (printRoot.parentNode) printRoot.parentNode.removeChild(printRoot);
+    };
+
+    // Ensure cleanup runs even if afterprint doesn't fire
+    const handleAfterPrint = () => {
+      cleanup();
+      window.removeEventListener("afterprint", handleAfterPrint);
+    };
+    window.addEventListener("afterprint", handleAfterPrint);
+
+    // Give the DOM a moment to attach before printing
+    setTimeout(() => {
+      window.print();
+      // Fallback cleanup
+      setTimeout(() => handleAfterPrint(), 1000);
+    }, 50);
   };
 
   const handleShare = async () => {
@@ -144,8 +77,8 @@ const ResumeOverlay = ({ isOpen, onClose }: ResumeOverlayProps) => {
 
   if (!isOpen) return null;
 
-  return (
-    <div className="fixed inset-0 z-50 overflow-y-auto">
+  const overlay = (
+    <div className="resume-overlay-container fixed inset-0 z-50 overflow-y-auto">
       {/* Backdrop */}
       <div 
         className="fixed inset-0 bg-black/50 transition-opacity"
@@ -209,6 +142,8 @@ const ResumeOverlay = ({ isOpen, onClose }: ResumeOverlayProps) => {
       </div>
     </div>
   );
+
+  return createPortal(overlay, document.body);
 };
 
 export default ResumeOverlay;
