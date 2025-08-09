@@ -25,8 +25,6 @@ const App = () => (
           <Route path="/digitalisierung" element={<Digitalisierung />} />
           <Route path="/organisationsentwicklung" element={<Organisationsentwicklung />} />
           <Route path="/ueber-uns" element={<UeberUns />} />
-          {/* Redirect old ueber-mich route to ueber-uns */}
-          <Route path="/ueber-mich" element={<Navigate to="/ueber-uns" replace />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
