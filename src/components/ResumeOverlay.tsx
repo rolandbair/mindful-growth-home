@@ -76,7 +76,11 @@ const ResumeOverlay = ({ isOpen, onClose }: ResumeOverlayProps) => {
               .grid { 
                 grid-template-columns: 1fr; 
                 gap: 16px; 
-              } 
+              }
+              /* Page break before Berufserfahrung section */
+              .page-break-before-print {
+                page-break-before: always;
+              }
             }
           </style>
         </head>

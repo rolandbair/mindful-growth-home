@@ -9,14 +9,18 @@ const ResumeContent = ({ isPreview = false, className = "" }: ResumeContentProps
       className={`resume-content ${className}`} 
       id="resume-content"
     >
-      {/* Header Section */}
-      <header className="text-center mb-10">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-800">Roland Bair</h1>
-        <p className="mt-4 text-md text-gray-600 contact-info">
+      {/* Contact Information Header */}
+      <div className="text-center mb-6">
+        <p className="text-md text-gray-600 contact-info">
           <a href="mailto:roland.bair@schulentwickler.at" className="text-blue-600 underline hover:text-blue-800">roland.bair@schulentwickler.at</a> &nbsp;&bull;&nbsp; 
           <a href="https://linkedin.com/in/rolandbair" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">LinkedIn</a> &nbsp;&bull;&nbsp; 
           Wien, AT
         </p>
+      </div>
+
+      {/* Name Header */}
+      <header className="text-center mb-10">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800">Roland Bair</h1>
       </header>
 
       {/* Profile Section */}
@@ -40,7 +44,7 @@ const ResumeContent = ({ isPreview = false, className = "" }: ResumeContentProps
       </section>
 
       {/* Professional Experience Section */}
-      <section className="mb-8 section">
+      <section className="mb-8 section page-break-before-print">
         <h2 className="text-xl md:text-2xl border-b-2 border-gray-200 pb-2 mb-4 font-semibold text-gray-800">Berufserfahrung</h2>
         
         <div className="mb-6">
