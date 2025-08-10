@@ -48,6 +48,137 @@
     },
     "imageAlt": "Teacher conference with participatory discussion"
   },
+  "digitalization": {
+    "title": "Digitalization",
+    "description": "Transform your school with modern digital solutions. We accompany you on the path to a digitally integrated educational institution with customized technology concepts and sustainable implementation strategies.",
+    "overview": {
+      "title": "Digital Transformation for Schools",
+      "description1": "Digitalization in education goes far beyond pure technology. It's about improving teaching and learning processes, optimizing administrative workflows, and creating new opportunities for collaborative work.",
+      "description2": "Our expertise helps you integrate digital tools meaningfully while always keeping pedagogical goals in focus."
+    },
+    "areas": {
+      "title": "Our Digitalization Areas",
+      "infrastructure": {
+        "title": "Infrastructure",
+        "description": "WiFi, hardware and basic technical equipment for modern education"
+      },
+      "communication": {
+        "title": "Communication Platforms",
+        "description": "Implementation of digital communication and collaboration tools"
+      },
+      "mobileLearning": {
+        "title": "Mobile Learning",
+        "description": "Tablets, smartphones and mobile learning concepts"
+      },
+      "administration": {
+        "title": "Administration",
+        "description": "Digital administrative processes and school management software"
+      }
+    },
+    "process": {
+      "title": "Our Implementation Process",
+      "step1": {
+        "title": "Inventory and Needs Analysis",
+        "description": "Evaluation of current technical equipment and identification of digitalization goals."
+      },
+      "step2": {
+        "title": "Strategy Development",
+        "description": "Creation of a customized digitalization concept with clear goals and milestones."
+      },
+      "step3": {
+        "title": "Pilot Projects and Testing",
+        "description": "Gradual implementation in small areas for testing and optimization."
+      },
+      "step4": {
+        "title": "Training and Change Management",
+        "description": "Comprehensive digitalization training for all stakeholders and support during the change process."
+      },
+      "step5": {
+        "title": "Full Implementation",
+        "description": "Rollout to the entire school with continuous support and optimization."
+      }
+    },
+    "cta": {
+      "title": "Start Your Digital Transformation",
+      "description": "Let's together shape the path to your school's digital future – strategically, sustainably and successfully."
+    },
+    "imageAlt": "Digital school with tablets and modern classroom"
+  },
+  "organizationalDevelopment": {
+    "title": "Organizational Development",
+    "description": "Optimize the structure, processes and culture of your school for sustainable success. Our systemic consulting helps you become a learning organization that continuously develops and adapts to changing requirements.",
+    "whatIs": {
+      "title": "What is Organizational Development?",
+      "description1": "Organizational development is a planned, systematic and long-term process to improve the performance and adaptability of an organization. In the school context, this means the continuous development of all aspects of school life.",
+      "description2": "People are at the center: teachers, students, parents and all other stakeholders are actively involved in the development process."
+    },
+    "areas": {
+      "title": "Our Development Areas",
+      "processes": {
+        "title": "Processes",
+        "description": "Optimization of workflows and decision structures"
+      },
+      "culture": {
+        "title": "Culture",
+        "description": "Development of a positive and innovative school culture"
+      },
+      "structure": {
+        "title": "Structure",
+        "description": "Adaptation of organizational structures and hierarchies"
+      },
+      "strategy": {
+        "title": "Strategy",
+        "description": "Development of long-term goals and development plans"
+      }
+    },
+    "methodology": {
+      "title": "Our Systemic Approach",
+      "step1": {
+        "title": "System Analysis",
+        "description": "Comprehensive analysis of current organizational structures, processes and culture."
+      },
+      "step2": {
+        "title": "Goal Development",
+        "description": "Joint definition of development goals with all stakeholders."
+      },
+      "step3": {
+        "title": "Intervention Planning",
+        "description": "Development of customized measures and interventions."
+      },
+      "step4": {
+        "title": "Implementation Support",
+        "description": "Active support in implementing change processes."
+      },
+      "step5": {
+        "title": "Evaluation & Adaptation",
+        "description": "Continuous assessment of progress and adaptation of measures."
+      },
+      "step6": {
+        "title": "Sustainability",
+        "description": "Ensuring long-term anchoring of developments."
+      }
+    },
+    "successFactors": {
+      "title": "Success Factors of Our Consulting",
+      "participation": {
+        "title": "Participation",
+        "description": "All stakeholders are actively involved in the development process and help shape it."
+      },
+      "sustainability": {
+        "title": "Sustainability",
+        "description": "Changes are designed to have long-term effects and be self-sustaining."
+      },
+      "systematic": {
+        "title": "Systematic",
+        "description": "Structured approach with clear methods and comprehensible steps."
+      }
+    },
+    "cta": {
+      "title": "Develop Your Organization Further",
+      "description": "Let us together develop your school into a learning organization that continuously develops and adapts to new challenges."
+    },
+    "imageAlt": "School team during strategic planning and organizational development"
+  },
   "about": {
     "title": "About Us",
     "description": "SchulEntwickler.at combines many years of experience in technology and leadership with deep expertise in school development.",
@@ -96,6 +227,133 @@
     "cta": {
       "title": "Let us transform your school",
       "description": "Ready for the next step? Contact us for a non-binding conversation about the possibilities of your school development."
+    }
+  },
+  "resume": {
+    "contact": {
+      "email": "roland.bair@schulentwickler.at",
+      "linkedin": "LinkedIn",
+      "location": "Vienna, Austria"
+    },
+    "name": "Roland Bair",
+    "sections": {
+      "profile": "PROFILE",
+      "coreCompetencies": "CORE COMPETENCIES",
+      "experience": "PROFESSIONAL EXPERIENCE",
+      "education": "EDUCATION & CERTIFICATES"
+    },
+    "profile": {
+      "description": "Dedicated facilitator for school development with over 20 years of experience in designing digital tools and learning organizations. Since 2020, I have been specifically applying my expertise to actively participate in school development. I combine leadership experience with a deep understanding of organizational culture and technological possibilities (especially AI). My strength lies in expertise at the intersection of **School Development-Digitalization-Organizational Leadership.**"
+    },
+    "competencies": {
+      "schoolDevelopment": {
+        "title": "Practice-Oriented School Development",
+        "description": "Partnership-based support for school leadership in designing school development plans including structured implementation, moderation of pedagogical days and conferences."
+      },
+      "leadership": {
+        "title": "Leadership & Process Facilitation",
+        "description": "Identification and strengthening of the school organizational framework for positive change culture."
+      },
+      "digitalSchool": {
+        "title": "Digital School Development & Implementation",
+        "description": "Development and practical implementation of digitalization concepts and integration into school development plans, support in introducing digital tools and workflows."
+      },
+      "agile": {
+        "title": "Agile & Lean Working Methods",
+        "description": "Design of effective structures, processes and understanding to promote efficient collaboration."
+      },
+      "technology": {
+        "title": "Technological Know-how",
+        "description": "Enterprise Architecture (TOGAF), software development, AI application, tool implementation, IT security (ISO 27001, data protection)."
+      }
+    },
+    "experience": {
+      "current": "Present",
+      "positions": {
+        "schoolDeveloper": {
+          "title": "School Developer & Digitalization Consultant",
+          "company": "Schulentwickler.at",
+          "location": "Vienna, AT",
+          "period": "02/2020 – Present",
+          "responsibilities": [
+            "Partnership-based support for school leadership teams in anchoring digitalization in school development plans.",
+            "Moderation of conferences and team development processes with focus on strengthening personal responsibility.",
+            "Support for schools in implementing and sustainably using digital tools."
+          ]
+        },
+        "headAI": {
+          "title": "Head of AI & Strategy",
+          "company": "Teachino FlexCo",
+          "location": "Vienna, AT",
+          "period": "05/2023 – Present",
+          "responsibilities": [
+            "Practical testing and development of AI applications for teaching.",
+            "Co-creation of learning solutions at the intersection of pedagogy and technology.",
+            "Redesigning Teachino's strategic direction."
+          ]
+        },
+        "ceo": {
+          "title": "Group-Co-CEO, Co-CEO, Head of Engineering",
+          "company": "Untis GmbH",
+          "location": "Stockerau, AT",
+          "period": "06/2020 – 12/2024",
+          "responsibilities": [
+            "Conceptualized the \"Untis Group\" and accompanied the first phases of the change process.",
+            "Strengthening and leading teams (over 150 employees) with focus on personal responsibility and customer focus.",
+            "Building agile product teams that work closely with users.",
+            "Designing a stable and future-proof technical foundation for digital educational tools.",
+            "Practical introduction and training of AI tools (e.g. chatbot)."
+          ]
+        },
+        "consultant": {
+          "title": "Consultant, Facilitator & Entrepreneur",
+          "company": "Roland Bair eU",
+          "location": "Vienna, AT",
+          "period": "03/2015 – 12/2024",
+          "responsibilities": [
+            "**Consulting & Facilitation:** Supporting organizations in the education sector in implementing sustainable working methods and structures.",
+            "**Own Projects:** Development and testing of AI-based prototypes and analysis of educational challenges."
+          ]
+        },
+        "other": {
+          "title": "Other Relevant Positions",
+          "items": [
+            "**Change Consultant, Avanade (Vienna, AT):** Alignment of strategy and organizational development methodologies.",
+            "**Enterprise Architect, ÖBB BCC / PV (Vienna, AT):** Design of understandable structures for complex IT systems and organizational structures.",
+            "**CTO, Tablet Solutions (Vienna, AT):** Leading software development and conducting customer workshops.",
+            "**Various roles incl. Enterprise Architect & Team Lead, Global Blue (Vienna & Singapore):** Development of technology strategies, building and leading development teams.",
+            "**Software Developer at TLC GmbH and Topcall Int. GmbH (Vienna, AT):** Development of software products, evaluation of licensing models, process management support, Capability Maturity Model (CMMI Level 1)"
+          ]
+        }
+      }
+    },
+    "education": {
+      "degree": "Education",
+      "certificates": "Key Certificates",
+      "degrees": [
+        "**MA Program Organizational Development** | ARGE Bildungsmanagement, Vienna (2019)",
+        "**BSc Business Informatics** | TU Vienna (2011)",
+        "**Apprenticeship as IT-Developer** | Berufsschule Mollardgasse, Vienna (2005)"
+      ],
+      "certifications": [
+        "Flight Level 3 Design (2025)",
+        "Certified Aware Leader – AgileLeadershipJourney (2023)",
+        "ISO/IEC 27001 Foundation (2021)",
+        "Certified LeSS Practitioner (2019)",
+        "Certified Enterprise Architecture Practitioner - TOGAF 9 (2013)"
+      ]
+    },
+    "overlay": {
+      "detailedResume": "Detailed Resume",
+      "fullExperience": "Complete Professional Experience & Qualifications",
+      "clickToEnlarge": "Click to enlarge",
+      "showFullResume": "Show full resume",
+      "actions": {
+        "print": "Print",
+        "download": "Download",
+        "share": "Share",
+        "close": "Close"
+      }
     }
   }
 }

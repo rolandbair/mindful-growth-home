@@ -6,9 +6,11 @@ import ResumeContent from "@/components/ResumeContent";
 import { Button } from "@/components/ui/button";
 import { LinkedinIcon, Building, GraduationCap, Users, FileText, ExternalLink } from "lucide-react";
 import { useState } from "react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const UeberUns = () => {
   const [isResumeOverlayOpen, setIsResumeOverlayOpen] = useState(false);
+  const { t } = useTranslation('pages');
 
   return (
     <div className="min-h-screen">
@@ -23,7 +25,7 @@ const UeberUns = () => {
               <div className="flex-shrink-0">
                 <img 
                   src="/profile_squared.png" 
-                  alt="Roland Bair"
+                  alt={t('about.roland.profileImageAlt')}
                   className="w-48 h-48 lg:w-64 lg:h-64 rounded-full shadow-xl object-cover"
                 />
               </div>
@@ -31,11 +33,10 @@ const UeberUns = () => {
               {/* Hero Content */}
               <div className="text-center lg:text-left flex-grow">
                 <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                  Über uns
+                  {t('about.title')}
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed">
-                  SchulEntwickler.at verbindet langjährige Erfahrung in Technologie und Führung 
-                  mit tiefer Expertise in der Schulentwicklung.
+                  {t('about.description')}
                 </p>
               </div>
             </div>
@@ -51,10 +52,10 @@ const UeberUns = () => {
               <div className="space-y-8">
                 <div>
                   <h2 className="text-3xl font-bold text-gray-900 mb-4">
-                    Roland Bair
+                    {t('about.roland.name')}
                   </h2>
                   <p className="text-xl text-blue-600 font-semibold mb-6">
-                    Gründer & Schulentwicklungsberater
+                    {t('about.roland.title')}
                   </p>
                 </div>
                 
@@ -62,40 +63,40 @@ const UeberUns = () => {
                   <div className="flex items-start space-x-4">
                     <Building className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-semibold text-gray-900">Mehr als 20 Jahre Technologie-Erfahrung</h3>
-                      <p className="text-gray-600">Umfassende Expertise in der Entwicklung und Implementierung von Bildungstechnologien</p>
+                      <h3 className="font-semibold text-gray-900">{t('about.roland.experience1.title')}</h3>
+                      <p className="text-gray-600">{t('about.roland.experience1.description')}</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <Users className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-semibold text-gray-900">10 Jahre in Führungspositionen</h3>
-                      <p className="text-gray-600">Langjährige Erfahrung in der strategischen Unternehmensführung und Teamentwicklung</p>
+                      <h3 className="font-semibold text-gray-900">{t('about.roland.experience2.title')}</h3>
+                      <p className="text-gray-600">{t('about.roland.experience2.description')}</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <Building className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-semibold text-gray-900">Ehemaliger CEO von Untis GmbH</h3>
-                      <p className="text-gray-600">Führung eines der führenden Unternehmen für Schulverwaltungssoftware im deutschsprachigen Raum</p>
+                      <h3 className="font-semibold text-gray-900">{t('about.roland.experience3.title')}</h3>
+                      <p className="text-gray-600">{t('about.roland.experience3.description')}</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <GraduationCap className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-semibold text-gray-900">Strategic EdTech Advisor</h3>
-                      <p className="text-gray-600">Beratung von Bildungseinrichtungen und EdTech-Unternehmen bei strategischen Entscheidungen</p>
+                      <h3 className="font-semibold text-gray-900">{t('about.roland.experience4.title')}</h3>
+                      <p className="text-gray-600">{t('about.roland.experience4.description')}</p>
                     </div>
                   </div>
                   
                   <div className="flex items-start space-x-4">
                     <Users className="w-6 h-6 text-blue-600 mt-1 flex-shrink-0" />
                     <div>
-                      <h3 className="font-semibold text-gray-900">Schulentwicklung seit Januar 2025</h3>
-                      <p className="text-gray-600">Fokus auf partizipative Führung, Digitalisierung und Organisationsentwicklung in Schulen</p>
+                      <h3 className="font-semibold text-gray-900">{t('about.roland.experience5.title')}</h3>
+                      <p className="text-gray-600">{t('about.roland.experience5.description')}</p>
                     </div>
                   </div>
                 </div>
@@ -108,7 +109,7 @@ const UeberUns = () => {
                     className="inline-flex items-center space-x-2 text-blue-600 hover:text-blue-700 transition-colors"
                   >
                     <LinkedinIcon size={20} />
-                    <span className="font-medium">LinkedIn Profil besuchen</span>
+                    <span className="font-medium">{t('about.roland.linkedin')}</span>
                   </a>
                 </div>
               </div>
@@ -120,8 +121,8 @@ const UeberUns = () => {
                   <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
                     <div className="flex items-center justify-between">
                       <div>
-                        <h3 className="text-xl font-bold">Detaillierter Lebenslauf</h3>
-                        <p className="text-blue-100 mt-1">Vollständige Berufserfahrung & Qualifikationen</p>
+                        <h3 className="text-xl font-bold">{t('resume.overlay.detailedResume')}</h3>
+                        <p className="text-blue-100 mt-1">{t('resume.overlay.fullExperience')}</p>
                       </div>
                       <FileText size={32} className="text-white/80" />
                     </div>
@@ -158,7 +159,7 @@ const UeberUns = () => {
                         onClick={() => setIsResumeOverlayOpen(true)}
                       >
                         <div className="bg-blue-600 text-white px-4 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 shadow-lg">
-                          <span className="text-sm font-medium">Zum Vergrößern klicken</span>
+                          <span className="text-sm font-medium">{t('resume.overlay.clickToEnlarge')}</span>
                         </div>
                       </div>
                     </div>
@@ -169,13 +170,77 @@ const UeberUns = () => {
                         className="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-3 rounded-lg transition-all duration-200 flex items-center justify-center space-x-2"
                       >
                         <ExternalLink size={18} />
-                        <span>Vollständigen Lebenslauf anzeigen</span>
+                        <span>{t('resume.overlay.showFullResume')}</span>
                       </Button>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Mission Section */}
+        <section className="py-16">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center max-w-4xl mx-auto mb-12">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                {t('about.mission.title')}
+              </h2>
+              <p className="text-lg text-gray-600">
+                {t('about.mission.description')}
+              </p>
+            </div>
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              <div className="text-center">
+                <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
+                  <Users className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('about.mission.participation.title')}</h3>
+                <p className="text-gray-600">
+                  {t('about.mission.participation.description')}
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
+                  <GraduationCap className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('about.mission.innovation.title')}</h3>
+                <p className="text-gray-600">
+                  {t('about.mission.innovation.description')}
+                </p>
+              </div>
+              <div className="text-center">
+                <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
+                  <Building className="w-8 h-8 text-blue-600" />
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('about.mission.sustainability.title')}</h3>
+                <p className="text-gray-600">
+                  {t('about.mission.sustainability.description')}
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* CTA Section */}
+        <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
+          <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
+            <h2 className="text-4xl font-bold text-white mb-6">
+              {t('about.cta.title')}
+            </h2>
+            <p className="text-xl text-blue-100 mb-8">
+              {t('about.cta.description')}
+            </p>
+            <a href="mailto:hello@schulentwickler.at?subject=Schulentwicklung Anfrage">
+              <Button 
+                size="lg"
+                className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
+              >
+                {t('buttons.requestConsultation', { ns: 'common' })}
+              </Button>
+            </a>
           </div>
         </section>
 

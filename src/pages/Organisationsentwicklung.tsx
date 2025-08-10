@@ -3,8 +3,11 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Layers, Settings, Users2, TrendingUp } from "lucide-react";
+import { useTranslation } from "@/hooks/useTranslation";
 
 const Organisationsentwicklung = () => {
+  const { t } = useTranslation('pages');
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -18,12 +21,10 @@ const Organisationsentwicklung = () => {
                 <Layers size={40} className="text-white" />
               </div>
               <h1 className="text-5xl font-bold text-gray-900 mb-6">
-                Organisationsentwicklung
+                {t('organizationalDevelopment.title')}
               </h1>
               <p className="text-xl text-gray-600 leading-relaxed">
-                Optimieren Sie Struktur, Prozesse und Kultur Ihrer Schule für nachhaltigen Erfolg. 
-                Unsere systemische Beratung hilft Ihnen dabei, eine lernende Organisation zu werden, 
-                die sich kontinuierlich weiterentwickelt und an verändernde Anforderungen anpasst.
+                {t('organizationalDevelopment.description')}
               </p>
             </div>
           </div>
@@ -35,23 +36,19 @@ const Organisationsentwicklung = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                  Was ist Organisationsentwicklung?
+                  {t('organizationalDevelopment.whatIs.title')}
                 </h2>
                 <p className="text-lg text-gray-600 mb-6">
-                  Organisationsentwicklung ist ein geplanter, systematischer und langfristiger Prozess zur 
-                  Verbesserung der Leistungsfähigkeit und Anpassungsfähigkeit einer Organisation. 
-                  Im Schulkontext bedeutet dies die kontinuierliche Weiterentwicklung aller Aspekte 
-                  des Schullebens.
+                  {t('organizationalDevelopment.whatIs.description1')}
                 </p>
                 <p className="text-lg text-gray-600">
-                  Dabei stehen die Menschen im Mittelpunkt: Lehrkräfte, Schüler:innen, Eltern und alle 
-                  anderen Beteiligten werden aktiv in den Entwicklungsprozess einbezogen.
+                  {t('organizationalDevelopment.whatIs.description2')}
                 </p>
               </div>
               <div className="bg-gradient-to-br from-blue-100 to-purple-100 p-8 rounded-3xl">
                 <img
                   src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&h=400&fit=crop"
-                  alt="Schulteam bei strategischer Planung und Organisationsentwicklung"
+                  alt={t('organizationalDevelopment.imageAlt')}
                   className="w-full h-64 object-cover rounded-2xl shadow-lg"
                 />
               </div>
@@ -63,35 +60,35 @@ const Organisationsentwicklung = () => {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Unsere Entwicklungsbereiche
+              {t('organizationalDevelopment.areas.title')}
             </h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
                 <Settings className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Prozesse</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('organizationalDevelopment.areas.processes.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Optimierung von Arbeitsabläufen und Entscheidungsstrukturen
+                  {t('organizationalDevelopment.areas.processes.description')}
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
                 <Users2 className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Kultur</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('organizationalDevelopment.areas.culture.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Entwicklung einer positiven und innovativen Schulkultur
+                  {t('organizationalDevelopment.areas.culture.description')}
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
                 <Layers className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Struktur</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('organizationalDevelopment.areas.structure.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Anpassung von Organisationsstrukturen und Hierarchien
+                  {t('organizationalDevelopment.areas.structure.description')}
                 </p>
               </div>
               <div className="bg-white p-6 rounded-2xl shadow-lg text-center">
                 <TrendingUp className="w-12 h-12 text-blue-600 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-gray-900 mb-3">Strategie</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-3">{t('organizationalDevelopment.areas.strategy.title')}</h3>
                 <p className="text-gray-600 text-sm">
-                  Entwicklung langfristiger Ziele und Entwicklungspläne
+                  {t('organizationalDevelopment.areas.strategy.description')}
                 </p>
               </div>
             </div>
@@ -102,29 +99,29 @@ const Organisationsentwicklung = () => {
         <section className="py-16">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Unser systemischer Ansatz
+              {t('organizationalDevelopment.methodology.title')}
             </h2>
             <div className="grid lg:grid-cols-2 gap-12">
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">1</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Systemanalyse</h3>
-                    <p className="text-gray-600">Umfassende Analyse der aktuellen Organisationsstrukturen, Prozesse und Kultur.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step1.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step1.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">2</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Zielentwicklung</h3>
-                    <p className="text-gray-600">Gemeinsame Definition von Entwicklungszielen mit allen Beteiligten.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step2.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step2.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">3</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Interventionsplanung</h3>
-                    <p className="text-gray-600">Entwicklung maßgeschneiderter Maßnahmen und Interventionen.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step3.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step3.description')}</p>
                   </div>
                 </div>
               </div>
@@ -132,22 +129,22 @@ const Organisationsentwicklung = () => {
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">4</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Umsetzungsbegleitung</h3>
-                    <p className="text-gray-600">Aktive Unterstützung bei der Implementierung von Veränderungsprozessen.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step4.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step4.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">5</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Evaluation & Anpassung</h3>
-                    <p className="text-gray-600">Kontinuierliche Bewertung der Fortschritte und Anpassung der Maßnahmen.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step5.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step5.description')}</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-bold text-sm">6</div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Nachhaltigkeit</h3>
-                    <p className="text-gray-600">Sicherstellung der langfristigen Verankerung der Entwicklungen.</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">{t('organizationalDevelopment.methodology.step6.title')}</h3>
+                    <p className="text-gray-600">{t('organizationalDevelopment.methodology.step6.description')}</p>
                   </div>
                 </div>
               </div>
@@ -159,34 +156,34 @@ const Organisationsentwicklung = () => {
         <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-bold text-gray-900 text-center mb-12">
-              Erfolgsfaktoren unserer Beratung
+              {t('organizationalDevelopment.successFactors.title')}
             </h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
                   <Users2 className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Partizipation</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('organizationalDevelopment.successFactors.participation.title')}</h3>
                 <p className="text-gray-600">
-                  Alle Beteiligten werden aktiv in den Entwicklungsprozess einbezogen und gestalten mit.
+                  {t('organizationalDevelopment.successFactors.participation.description')}
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
                   <TrendingUp className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Nachhaltigkeit</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('organizationalDevelopment.successFactors.sustainability.title')}</h3>
                 <p className="text-gray-600">
-                  Veränderungen werden so gestaltet, dass sie langfristig wirken und sich selbst tragen.
+                  {t('organizationalDevelopment.successFactors.sustainability.description')}
                 </p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 rounded-full bg-blue-100 mx-auto mb-4 flex items-center justify-center">
                   <Settings className="w-8 h-8 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold text-gray-900 mb-3">Systematik</h3>
+                <h3 className="text-xl font-bold text-gray-900 mb-3">{t('organizationalDevelopment.successFactors.systematic.title')}</h3>
                 <p className="text-gray-600">
-                  Strukturiertes Vorgehen mit klaren Methoden und nachvollziehbaren Schritten.
+                  {t('organizationalDevelopment.successFactors.systematic.description')}
                 </p>
               </div>
             </div>
@@ -197,18 +194,17 @@ const Organisationsentwicklung = () => {
         <section className="py-20 bg-gradient-to-r from-blue-600 to-purple-600">
           <div className="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-bold text-white mb-6">
-              Entwickeln Sie Ihre Organisation weiter
+              {t('organizationalDevelopment.cta.title')}
             </h2>
             <p className="text-xl text-blue-100 mb-8">
-              Lassen Sie uns gemeinsam Ihre Schule zu einer lernenden Organisation entwickeln, 
-              die sich kontinuierlich weiterentwickelt und an neue Herausforderungen anpasst.
+              {t('organizationalDevelopment.cta.description')}
             </p>
             <a href="mailto:hello@schulentwickler.at?subject=Organisationsentwicklung Anfrage">
               <Button 
                 size="lg"
                 className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-3 text-lg font-semibold"
               >
-                Organisationsentwicklung starten
+                {t('buttons.startOrganizationalDevelopment', { ns: 'common' })}
               </Button>
             </a>
           </div>

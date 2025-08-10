@@ -228,5 +228,132 @@
       "title": "Lassen Sie uns Ihre Schule transformieren",
       "description": "Bereit für den nächsten Schritt? Kontaktieren Sie uns für ein unverbindliches Gespräch über die Möglichkeiten Ihrer Schulentwicklung."
     }
+  },
+  "resume": {
+    "contact": {
+      "email": "roland.bair@schulentwickler.at",
+      "linkedin": "LinkedIn",
+      "location": "Wien, Austria"
+    },
+    "name": "Roland Bair",
+    "sections": {
+      "profile": "PROFIL",
+      "coreCompetencies": "KERNKOMPETENZEN",
+      "experience": "BERUFSERFAHRUNG",
+      "education": "AUSBILDUNG & ZERTIFIKATE"
+    },
+    "profile": {
+      "description": "Engagierter Begleiter für Schulentwicklung mit über 20 Jahren Erfahrung in der Gestaltung von digitalen Werkzeugen und lernenden Organisationen. Seit 2020 setze ich meine Expertise gezielt ein, um die Weiterentwicklung von Schulen aktiv mitzugestalten. Ich verbinde Führungserfahrung mit einem tiefen Verständnis für Organisationskultur und technologische Möglichkeiten (insb. KI). Meine Stärke liegt in der Expertise im überschneidenden Themenkomplex **Schulentwicklung-Digitalisierung-Organisationsführung.**"
+    },
+    "competencies": {
+      "schoolDevelopment": {
+        "title": "Praxisorientierte Schulentwicklung",
+        "description": "Partnerschaftliche Begleitung von Schulleitungen bei der Konzeption von SEPs inkl. strukturierter Umsetzung, Moderation von pädagogischen Tagen und Konferenzen."
+      },
+      "leadership": {
+        "title": "Führung & Prozessbegleitung",
+        "description": "Identifizierung und Stärkung des schulorganisatorischen Rahmens für positive Veränderungskultur."
+      },
+      "digitalSchool": {
+        "title": "Digitale Schulentwicklung & Umsetzung",
+        "description": "Entwicklung und praktische Umsetzung von Digitalisierungskonzepten und Einordnung im SEP, Begleitung bei der Einführung von digitalen Werkzeugen und Abläufen."
+      },
+      "agile": {
+        "title": "Agile & Lean Arbeitsweisen",
+        "description": "Gestaltung effektiver Strukturen, Abläufe und Verständnisse zur Förderung einer effizienten Zusammenarbeit."
+      },
+      "technology": {
+        "title": "Technologisches Know-how",
+        "description": "Enterprise Architecture (TOGAF), Softwareentwicklung, KI-Anwendung, Tool-Einführung, IT-Sicherheit (ISO 27001, Datenschutz)."
+      }
+    },
+    "experience": {
+      "current": "Aktuell",
+      "positions": {
+        "schoolDeveloper": {
+          "title": "Schulentwickler & Digitalisierungsberater",
+          "company": "Schulentwickler.at",
+          "location": "Wien, AT",
+          "period": "02/2020 – Aktuell",
+          "responsibilities": [
+            "Partnerschaftliche Begleitung von Schulleitung(steams) zur Verankerung von Digitalisierung in Schulentwicklungsplänen.",
+            "Moderation von Konferenzen und Teamentwicklungsprozessen mit Fokus auf Stärkung der Eigenverantwortung.",
+            "Begleitung von Schulen bei der Einführung und nachhaltigen Nutzung digitaler Werkzeuge."
+          ]
+        },
+        "headAI": {
+          "title": "Head of AI & Strategy",
+          "company": "Teachino FlexCo",
+          "location": "Wien, AT",
+          "period": "05/2023 – Aktuell",
+          "responsibilities": [
+            "Praktische Erprobung und Entwicklung von KI-Anwendungen für den Unterricht.",
+            "Mitgestaltung von Lernlösungen an der Schnittstelle von Pädagogik und Technologie.",
+            "Neugestaltung der strategischen Ausrichtung von Teachino."
+          ]
+        },
+        "ceo": {
+          "title": "Group-Co-CEO, Co-CEO, Head of Engineering",
+          "company": "Untis GmbH",
+          "location": "Stockerau, AT",
+          "period": "06/2020 – 12/2024",
+          "responsibilities": [
+            "Die \"Untis-Gruppe\" konzeptioniert und die ersten Phasen des Veränderungsprozesses begleitet.",
+            "Stärkung und Führung von Teams (über 150 Mitarbeitende) mit Fokus auf Eigenverantwortung und Kundenfokus.",
+            "Aufbau von agilen Produktteams, die eng mit Anwendern zusammenarbeiten.",
+            "Konzeption einer stabilen und zukunftsfähigen technischen Basis für digitale Bildungswerkzeuge.",
+            "Praktische Einführung und Trainings von KI-Werkzeugen (z.B. Chatbot)."
+          ]
+        },
+        "consultant": {
+          "title": "Berater, Begleiter & Unternehmer",
+          "company": "Roland Bair eU",
+          "location": "Wien, AT",
+          "period": "03/2015 – 12/2024",
+          "responsibilities": [
+            "**Beratung & Begleitung:** Unterstützung von Organisationen u.a. im Bildungsbereich bei der Einführung nachhaltiger Arbeitsweisen und Strukturen.",
+            "**Eigene Projekte:** Entwicklung und Erprobung von KI-basierten Prototypen und Analyse von Bildungsherausforderungen."
+          ]
+        },
+        "other": {
+          "title": "Weitere relevante Stationen",
+          "items": [
+            "**Change Consultant, Avanade (Wien, AT):** Abgleich von Strategie- und Organisationsentwicklungsmethodiken.",
+            "**Enterprise Architekt, ÖBB BCC / PV (Wien, AT):** Entwurf von verständlichen Strukturen für komplexe IT-Systeme und Organisationsstrukturen.",
+            "**CTO, Tablet Solutions (Wien, AT):** Leitung der Softwareentwicklung und Durchführung von Kundenworkshops.",
+            "**Diverse Rollen inkl. Enterprise Architect & Team Lead, Global Blue (Wien & Singapur):** Entwicklung von Technologiestrategien, Aufbau und Leitung von Entwicklungsteams.",
+            "**Softwareentwickler bei TLC GmbH und Topcall Int. GmbH (Wien, AT):** Entwicklung von Softwareprodukten, Evaluierung Lizenzmodelle, Unterstützung Prozessmanagement, Capability Maturity Model (CMMI Level 1)"
+          ]
+        }
+      }
+    },
+    "education": {
+      "degree": "Ausbildung",
+      "certificates": "Wichtigste Zertifikate",
+      "degrees": [
+        "**MA-Lehrgang Organisationsentwicklung** | ARGE Bildungsmanagement, Wien (2019)",
+        "**BSc Wirtschaftsinformatik** | TU Wien (2011)",
+        "**Lehre als IT-Developer** | Berufsschule Mollardgasse, Wien (2005)"
+      ],
+      "certifications": [
+        "Flight Level 3 Design (2025)",
+        "Certified Aware Leader – AgileLeadershipJourney (2023)",
+        "ISO/IEC 27001 Foundation (2021)",
+        "Zertifizierter LeSS Practitioner (2019)",
+        "Certified Enterprise Architecture Practitioner - TOGAF 9 (2013)"
+      ]
+    },
+    "overlay": {
+      "detailedResume": "Detaillierter Lebenslauf",
+      "fullExperience": "Vollständige Berufserfahrung & Qualifikationen",
+      "clickToEnlarge": "Zum Vergrößern klicken",
+      "showFullResume": "Vollständigen Lebenslauf anzeigen",
+      "actions": {
+        "print": "Drucken",
+        "download": "Herunterladen",
+        "share": "Teilen",
+        "close": "Schließen"
+      }
+    }
   }
 }

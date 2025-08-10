@@ -1,6 +1,7 @@
 import { X, Download, Share2, Printer } from "lucide-react";
 import { useState } from "react";
 import { createPortal } from "react-dom";
+import { useTranslation } from "@/hooks/useTranslation";
 import ResumeContent from "./ResumeContent";
 
 interface ResumeOverlayProps {
@@ -10,6 +11,7 @@ interface ResumeOverlayProps {
 
 const ResumeOverlay = ({ isOpen, onClose }: ResumeOverlayProps) => {
   const [showShareOptions, setShowShareOptions] = useState(false);
+  const { t } = useTranslation('pages');
 
   const handlePrint = () => {
     const resume = document.getElementById("resume-content");
