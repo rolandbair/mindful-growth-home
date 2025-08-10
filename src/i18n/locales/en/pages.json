@@ -58,10 +58,6 @@
     },
     "areas": {
       "title": "Our Digitalization Areas",
-      "infrastructure": {
-        "title": "Infrastructure",
-        "description": "WiFi, hardware and basic technical equipment for modern education"
-      },
       "communication": {
         "title": "Communication Platforms",
         "description": "Implementation of digital communication and collaboration tools"
@@ -354,6 +350,488 @@
         "share": "Share",
         "close": "Close"
       }
+    }
+  },
+  "schoolDevelopment": {
+    "title": "School Development Philosophy",
+    "subtitle": "My comprehensive approach to transforming educational institutions through participatory leadership, strategic digitalization, and evidence-based organizational development.",
+    "philosophy": {
+      "title": "My Take on School Development",
+      "participatory": {
+        "title": "The Participatory Foundation",
+        "description": "School development isn't something that happens TO a school—it's something that emerges FROM a school when the right conditions are created. My approach centers on participatory leadership because sustainable change requires the active engagement of all stakeholders: teachers, students, parents, and the broader community."
+      },
+      "digital": {
+        "title": "Beyond Technology Integration",
+        "description": "While digital transformation is crucial, I've learned that technology without pedagogical innovation is just expensive equipment. True digitalization in education means reimagining how we teach, learn, and connect. It's about using technology to amplify human potential, not replace human connection."
+      },
+      "systems": {
+        "title": "Systems Thinking Approach",
+        "description": "Schools are complex adaptive systems. Small changes in one area can create ripple effects throughout the organization. My methodology focuses on identifying leverage points where minimal effort can create maximum positive impact. This systems perspective informs every intervention I design."
+      },
+      "evidence": {
+        "title": "Evidence-Based Practice",
+        "description": "Every recommendation I make is grounded in research and refined through practice. I combine academic insights from organizational psychology, educational leadership, and change management with real-world experience from dozens of school transformation projects across Austria and Germany."
+      }
+    },
+    "books": {
+      "title": "Essential Reading for School Leaders",
+      "subtitle": "Books that have shaped my thinking and practice in school development",
+      "completeList": "View Complete Reading List"
+    },
+    "toolbox": {
+      "title": "School Development Toolbox",
+      "subtitle": "Choose your path through our comprehensive collection of school development tools and methodologies. Each path is designed for different contexts and transformation goals.",
+      "includedTools": "Included Tools:",
+      "customPath": {
+        "title": "Need a Custom Path?",
+        "description": "Every school is unique. Let's work together to design a development path that fits your specific context, resources, and goals."
+      }
+    }
+  },
+  "bookRecommendations": {
+    "title": "Essential Reading for School Development",
+    "subtitle": "A curated collection of books that have shaped my approach to educational leadership, organizational change, and school transformation. Each recommendation includes my personal insights and practical applications.",
+    "categories": {
+      "all": "All Books",
+      "leadership": "Leadership",
+      "digital": "Digital Transformation",
+      "change": "Change Management",
+      "systems": "Systems Thinking"
+    },
+    "labels": {
+      "myTake": "My Take:",
+      "keyInsights": "Key Insights:",
+      "bestFor": "Best For:",
+      "practicalApplication": "Practical Application:"
+    },
+    "cta": {
+      "title": "Want to Discuss These Ideas?",
+      "description": "I love connecting with fellow educators about these books and their practical applications in school development.",
+      "buttons": {
+        "startConversation": "Start a Conversation",
+        "bookDiscussion": "Book a Reading Discussion"
+      }
+    }
+  },
+  "toolbox": {
+    "title": "School Development Toolbox",
+    "subtitle": "Practical tools, frameworks, and resources for transforming educational organizations. Each tool includes detailed implementation guides, materials lists, and links to editable Google Docs templates.",
+    "search": {
+      "placeholder": "Search tools, tags, or categories...",
+      "noResults": {
+        "title": "No tools found",
+        "description": "Try adjusting your search terms or category filter."
+      }
+    },
+    "featured": "Featured Tools",
+    "stats": {
+      "toolsAvailable": "tools available",
+      "duration": "Duration",
+      "participants": "Participants"
+    },
+    "labels": {
+      "keyOutcomes": "Key Outcomes:",
+      "moreOutcomes": "more outcomes",
+      "difficulty": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      }
+    },
+    "cta": {
+      "title": "Need Help Implementing These Tools?",
+      "description": "I provide hands-on support for implementing any of these tools in your school context. From facilitation to training, let's make these tools work for your unique situation.",
+      "buttons": {
+        "requestSupport": "Request Implementation Support"
+      }
+    }
+  },
+  "toolDetail": {
+    "notFound": {
+      "title": "Tool Not Found",
+      "description": "The requested tool could not be found."
+    },
+    "tabs": {
+      "overview": "Overview",
+      "steps": "Steps",
+      "tips": "Tips",
+      "challenges": "Challenges"
+    },
+    "labels": {
+      "keyOutcomes": "Key Outcomes",
+      "materialsNeeded": "Materials Needed",
+      "prerequisites": "Prerequisites",
+      "activities": "Activities:",
+      "tags": "Tags",
+      "relatedTools": "Related Tools"
+    },
+    "support": {
+      "title": "Need Help?",
+      "description": "I provide hands-on support for implementing this tool in your school context.",
+      "buttons": {
+        "emailSupport": "Email for Support"
+      }
+    }
+  },
+  "toolboxPath": {
+    "notFound": {
+      "title": "Path Not Found",
+      "description": "The requested development path could not be found."
+    },
+    "labels": {
+      "pathOverview": "Path Overview",
+      "successStories": "Success Stories",
+      "implementationSteps": "Implementation Steps",
+      "toolsUsed": "Tools Used:",
+      "keyOutcomes": "Key Outcomes:",
+      "prerequisites": "Prerequisites:"
+    },
+    "gettingStarted": {
+      "title": "Ready to Start This Path?",
+      "description": "I provide hands-on support for implementing this development path in your school. From initial planning to final evaluation, I'll be with you every step of the way.",
+      "pathGuide": {
+        "title": "Path Guide",
+        "description": "Detailed implementation guide with timelines, templates, and checklists."
+      },
+      "toolTemplates": {
+        "title": "Tool Templates",
+        "description": "Editable Google Docs templates for all tools mentioned in this path."
+      },
+      "implementationSupport": {
+        "title": "Implementation Support",
+        "description": "Personal consultation and ongoing support throughout your journey."
+      },
+      "buttons": {
+        "exploreOtherPaths": "Explore Other Paths"
+      }
+    }
+  },
+  "consultation": {
+    "title": "Schedule a Consultation",
+    "subtitle": "Get personalized guidance for your school development journey. Whether you need strategic planning, tool implementation support, or leadership coaching, I'm here to help.",
+    "types": {
+      "title": "Consultation Options",
+      "subtitle": "Choose the type of support that best fits your needs",
+      "strategy": {
+        "title": "School Development Strategy",
+        "description": "Comprehensive consultation for long-term school transformation"
+      },
+      "implementation": {
+        "title": "Tool Implementation Support",
+        "description": "Hands-on help implementing specific tools from the toolbox"
+      },
+      "coaching": {
+        "title": "Leadership Coaching",
+        "description": "One-on-one coaching for school leaders"
+      },
+      "facilitation": {
+        "title": "Team Workshop Facilitation",
+        "description": "Professional facilitation for team development workshops"
+      }
+    },
+    "consultationTypes": [
+      {
+        "id": "school-development-strategy",
+        "title": "School Development Strategy",
+        "description": "Comprehensive consultation for long-term school transformation",
+        "duration": "2-3 hours",
+        "format": "In-person or video call"
+      },
+      {
+        "id": "tool-implementation",
+        "title": "Tool Implementation Support",
+        "description": "Hands-on help implementing specific tools from the toolbox",
+        "duration": "1-2 hours",
+        "format": "Video call or workshop"
+      },
+      {
+        "id": "leadership-coaching",
+        "title": "Leadership Coaching",
+        "description": "One-on-one coaching for school leaders",
+        "duration": "1 hour",
+        "format": "Video call"
+      },
+      {
+        "id": "team-facilitation",
+        "title": "Team Workshop Facilitation",
+        "description": "Professional facilitation for team development workshops",
+        "duration": "Half or full day",
+        "format": "In-person"
+      }
+    ],
+    "availableTools": [
+      "Team Building Toolkit",
+      "Digital Readiness Assessment",
+      "Vision Development Workshop",
+      "Communication Framework",
+      "Change Management Framework",
+      "Teacher Digital Literacy Program",
+      "360° School Analysis",
+      "Quick Wins Assessment"
+    ],
+    "labels": {
+      "duration": "Duration:",
+      "format": "Format:"
+    },
+    "form": {
+      "title": "Request Your Consultation",
+      "subtitle": "Tell me about your school and what kind of support you're looking for",
+      "cardTitle": "Consultation Request Form",
+      "cardDescription": "Please provide as much detail as possible so I can prepare for our conversation",
+      "fields": {
+        "name": {
+          "label": "Full Name",
+          "required": true
+        },
+        "email": {
+          "label": "Email Address",
+          "required": true
+        },
+        "school": {
+          "label": "School/Organization",
+          "required": true
+        },
+        "role": {
+          "label": "Your Role",
+          "required": true,
+          "placeholder": "Select your role",
+          "options": {
+            "principal": "Principal/Director",
+            "vicePrincipal": "Vice Principal",
+            "departmentHead": "Department Head",
+            "teacher": "Teacher",
+            "itCoordinator": "IT Coordinator",
+            "consultant": "External Consultant",
+            "boardMember": "Board Member",
+            "other": "Other"
+          }
+        },
+        "consultationType": {
+          "label": "Type of Consultation",
+          "required": true,
+          "placeholder": "Select consultation type"
+        },
+        "specificTools": {
+          "label": "Specific Tools of Interest (optional)"
+        },
+        "timeframe": {
+          "label": "Preferred Timeframe",
+          "placeholder": "When would you like to meet?",
+          "options": {
+            "thisWeek": "This week",
+            "nextWeek": "Next week",
+            "withinMonth": "Within the next month",
+            "flexible": "I'm flexible"
+          }
+        },
+        "preferredContact": {
+          "label": "Preferred Contact Method",
+          "placeholder": "How should I contact you?",
+          "options": {
+            "email": "Email",
+            "phone": "Phone",
+            "videoCall": "Video Call",
+            "inPerson": "In-person meeting"
+          }
+        },
+        "budget": {
+          "label": "Budget Range (optional)",
+          "placeholder": "What's your budget range?",
+          "options": {
+            "under500": "Under €500",
+            "500to1500": "€500 - €1,500",
+            "1500to5000": "€1,500 - €5,000",
+            "5000plus": "€5,000+",
+            "discuss": "Let's discuss"
+          }
+        },
+        "description": {
+          "label": "Tell me about your situation",
+          "placeholder": "What challenges are you facing? What goals do you have? What specific support are you looking for?",
+          "required": true
+        }
+      },
+      "submitButton": "Send Consultation Request"
+    },
+    "whatToExpect": {
+      "title": "What to Expect",
+      "steps": {
+        "response": {
+          "title": "1. Initial Response",
+          "description": "I'll respond within 24 hours to confirm receipt and ask any clarifying questions."
+        },
+        "scheduling": {
+          "title": "2. Scheduling",
+          "description": "We'll find a time that works for both of us, typically within 1-2 weeks."
+        },
+        "consultation": {
+          "title": "3. Consultation",
+          "description": "We'll have a focused conversation about your needs and develop actionable next steps."
+        }
+      }
+    }
+  },
+  "schoolDevelopmentData": {
+    "books": [
+      {
+        "title": "Building School 2.0: How to Create the Schools We Need",
+        "author": "Chris Lehmann",
+        "category": "Digital Transformation",
+        "myTake": "Lehmann's vision of technology integration resonates deeply with my experience. His emphasis on inquiry-driven learning and authentic assessment aligns perfectly with participatory leadership principles."
+      },
+      {
+        "title": "The Schools Our Children Deserve",
+        "author": "Alfie Kohn",
+        "category": "Educational Philosophy",
+        "myTake": "Kohn challenges traditional assumptions about education in ways that mirror my approach to organizational development. His critique of standardized testing particularly informs my work on authentic assessment."
+      },
+      {
+        "title": "Distributed Leadership in Practice",
+        "author": "James Spillane",
+        "category": "Leadership",
+        "myTake": "This research-based approach to distributed leadership provides the theoretical foundation for much of my participatory leadership consulting. Essential reading for understanding systemic change."
+      }
+    ],
+    "paths": [
+      {
+        "title": "Quick Start Path",
+        "description": "For schools needing immediate impact with minimal resources",
+        "duration": "2-3 months",
+        "slug": "quick-start-path",
+        "tools": ["Team Building Toolkit", "Communication Framework", "Quick Wins Assessment"]
+      },
+      {
+        "title": "Comprehensive Transformation",
+        "description": "Full organizational development journey",
+        "duration": "12-18 months",
+        "slug": "comprehensive-transformation",
+        "tools": ["360° School Analysis", "Vision Development Workshop", "Change Management Framework", "Leadership Development Program"]
+      },
+      {
+        "title": "Digital Integration Path",
+        "description": "Technology-focused development with pedagogical alignment",
+        "duration": "6-9 months",
+        "slug": "digital-integration-path",
+        "tools": ["Digital Readiness Assessment", "EdTech Implementation Guide", "Teacher Digital Literacy Program"]
+      }
+    ]
+  },
+  "bookRecommendationsData": {
+    "categories": {
+      "leadership": [
+        {
+          "title": "Distributed Leadership in Practice",
+          "author": "James Spillane",
+          "year": "2006",
+          "isbn": "978-0807747094",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Distributed Leadership in Practice",
+          "keyInsights": [
+            "Leadership is a practice distributed across people, tools, and situations",
+            "Focus on leadership interactions rather than individual leaders",
+            "Organizational routines shape leadership distribution"
+          ],
+          "myTake": "This book fundamentally changed how I approach leadership development in schools. Spillane's research-based framework provides the theoretical foundation for participatory leadership. His insight that leadership is distributed across interactions, not just individuals, informs every leadership intervention I design.",
+          "bestFor": "School leaders ready to move beyond hierarchical models",
+          "practicalApplication": "Use the distributed leadership lens to analyze your school's current leadership practices. Identify where leadership naturally emerges and how to support these distributed leadership activities."
+        },
+        {
+          "title": "The Schools Our Children Deserve",
+          "author": "Alfie Kohn",
+          "year": "1999", 
+          "isbn": "978-0618083459",
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Schools Our Children Deserve",
+          "keyInsights": [
+            "Standardized testing undermines authentic learning",
+            "Competition in education is counterproductive",
+            "Focus on intrinsic motivation over external rewards"
+          ],
+          "myTake": "Kohn's critique of traditional educational practices resonates deeply with my systems thinking approach. His arguments against standardized testing and competitive grading align with participatory leadership principles. However, his solutions sometimes lack practical implementation strategies for real-world constraints.",
+          "bestFor": "Educators questioning traditional assessment and motivation strategies",
+          "practicalApplication": "Start small by experimenting with narrative assessments and collaborative learning structures. Document the impact on student engagement and learning quality."
+        }
+      ],
+      "digital": [
+        {
+          "title": "Building School 2.0: How to Create the Schools We Need",
+          "author": "Chris Lehmann",
+          "year": "2013",
+          "isbn": "978-1118694572",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Building School 2.0 How to Create the Schools We Need",
+          "keyInsights": [
+            "Technology should amplify great teaching, not replace it",
+            "Inquiry-driven learning is enhanced by digital tools",
+            "School culture must evolve alongside technology integration"
+          ],
+          "myTake": "Lehmann perfectly captures why so many technology initiatives fail in schools. His emphasis on inquiry-driven learning and authentic assessment provides a pedagogical framework for meaningful digitalization. This book bridges the gap between educational philosophy and practical technology implementation.",
+          "bestFor": "Schools beginning digital transformation journeys",
+          "practicalApplication": "Before purchasing any technology, ask Lehmann's key question: 'How will this amplify great teaching?' Use this as a filter for all EdTech decisions."
+        },
+        {
+          "title": "The Tech-Savvy Administrator",
+          "author": "Steven Anderson",
+          "year": "2016",
+          "isbn": "978-1564843579",
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Tech-Savvy Administrator",
+          "keyInsights": [
+            "Administrator technology literacy directly impacts school culture",
+            "Social media can enhance school-community connections",
+            "Digital citizenship requires proactive leadership"
+          ],
+          "myTake": "Anderson provides practical guidance for school leaders who feel overwhelmed by technology. His step-by-step approach to building administrator tech competence is invaluable. However, the book sometimes focuses too heavily on tools rather than pedagogical integration.",
+          "bestFor": "School administrators building their own technology confidence",
+          "practicalApplication": "Start with Anderson's personal learning network approach. Use Twitter and LinkedIn to connect with educational technology leaders and learn from their experiences."
+        }
+      ],
+      "change": [
+        {
+          "title": "Switch: How to Change Things When Change Is Hard",
+          "author": "Chip Heath & Dan Heath",
+          "year": "2010",
+          "isbn": "978-0385528757",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Switch How to Change Things When Change Is Hard",
+          "keyInsights": [
+            "Direct the Rider (rational mind), motivate the Elephant (emotional mind), shape the Path (environment)",
+            "Find bright spots and clone them",
+            "Make change feel inevitable by creating social proof"
+          ],
+          "myTake": "While not specifically about education, this is the most practical book on organizational change I've encountered. The Heath brothers' framework directly applies to school transformation. I use their bright spots approach in every school development project.",
+          "bestFor": "Anyone leading change in educational settings",
+          "practicalApplication": "Identify teachers already implementing desired changes (bright spots) and study what makes them successful. Create conditions for other teachers to naturally adopt these practices."
+        },
+        {
+          "title": "Leading Change",
+          "author": "John Kotter",
+          "year": "1996",
+          "isbn": "978-0875847474",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Leading Change John Kotter",
+          "keyInsights": [
+            "Create urgency before attempting change",
+            "Form a powerful guiding coalition",
+            "Communicate the vision repeatedly and consistently"
+          ],
+          "myTake": "Kotter's 8-step process provides a solid framework for large-scale school transformation. His emphasis on urgency and coalition-building has proven essential in my work. However, the model can feel too linear for the complex, adaptive nature of educational organizations.",
+          "bestFor": "Schools undertaking comprehensive transformation initiatives",
+          "practicalApplication": "Use Kotter's steps as a checklist, but remain flexible in implementation. Pay special attention to steps 1-4; most school change efforts fail because these foundations aren't properly established."
+        }
+      ],
+      "systems": [
+        {
+          "title": "The Fifth Discipline",
+          "author": "Peter Senge",
+          "year": "1990",
+          "isbn": "978-0385517256",
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Fifth Discipline Peter Senge",
+          "keyInsights": [
+            "Organizations are systems; small changes can produce big results",
+            "Mental models shape how we interpret experiences",
+            "Team learning is vital for organizational effectiveness"
+          ],
+          "myTake": "Senge's systems thinking approach fundamentally shapes how I view school development. His concept of learning organizations provides the theoretical framework for sustainable change. This book is dense but essential for understanding why simple solutions often fail in complex educational environments.",
+          "bestFor": "Leaders seeking to understand organizational complexity",
+          "practicalApplication": "Start by mapping the causal relationships in your school's key challenges. Look for leverage points where small changes could have significant impact."
+        }
+      ]
     }
   }
 }

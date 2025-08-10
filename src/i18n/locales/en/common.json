@@ -2,20 +2,33 @@
 {
   "navigation": {
     "home": "Home",
-    "services": "Services",
-    "about": "About Us",
-    "contact": "Contact"
+    "about": "About Me",
+    "contact": "Contact",
+    "schoolDevelopment": "School Development"
   },
   "buttons": {
     "startTransformation": "Start Transformation",
     "learnMore": "Learn More",
-    "requestConsultation": "Request Consultation",
     "scheduleCall": "Schedule Call",
     "requestDigitalizationConsulting": "Request Digitalization Consulting",
-    "startOrganizationalDevelopment": "Start Organizational Development"
+    "startOrganizationalDevelopment": "Start Organizational Development",
+    "viewDetails": "View Details",
+    "downloadPDF": "Download PDF",
+    "openInGoogleDocs": "Open in Google Docs",
+    "backToToolbox": "Back to Toolbox",
+    "exploreTools": "Explore Tools",
+    "requestSupport": "Request Support",
+    "viewOnThalia": "View on Thalia",
+    "startYourJourney": "Start Your Journey",
+    "exploreThisPath": "Explore This Path",
+    "browseAllTools": "Browse All Tools",
+    "downloadGuide": "Download Guide",
+    "accessTemplates": "Access Templates",
+    "myApproach": "My Approach",
+    "exploreToolbox": "Explore Toolbox",
+    "exploreOtherPaths": "Explore Other Paths"
   },
   "footer": {
-    "description": "Empowering schools through participatory leadership, digitalization and organizational excellence.",
     "email": "Email: hello@schulentwickler.at",
     "copyright": "© 2025 SchulEntwickler.at. All rights reserved."
   }

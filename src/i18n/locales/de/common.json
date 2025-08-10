@@ -2,20 +2,33 @@
 {
   "navigation": {
     "home": "Start",
-    "services": "Dienstleistungen",
-    "about": "Über uns",
-    "contact": "Kontakt"
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "schoolDevelopment": "Schulentwicklung"
   },
   "buttons": {
-    "startTransformation": "Transformation starten",
+    "startTransformation": "Schulentwicklung starten",
     "learnMore": "Mehr erfahren",
-    "requestConsultation": "Beratung anfragen",
     "scheduleCall": "Gespräch vereinbaren",
     "requestDigitalizationConsulting": "Digitalisierungsberatung anfragen",
-    "startOrganizationalDevelopment": "Organisationsentwicklung starten"
+    "startOrganizationalDevelopment": "Organisationsentwicklung starten",
+    "viewDetails": "Details ansehen",
+    "downloadPDF": "PDF herunterladen",
+    "openInGoogleDocs": "In Google Docs öffnen",
+    "backToToolbox": "Zurück zur Toolbox",
+    "exploreTools": "Tools erkunden",
+    "requestSupport": "Unterstützung anfragen",
+    "viewOnThalia": "Bei Thalia ansehen",
+    "startYourJourney": "Ihre Reise beginnen",
+    "exploreThisPath": "Diesen Pfad erkunden",
+    "browseAllTools": "Alle Tools durchsuchen",
+    "downloadGuide": "Leitfaden herunterladen",
+    "accessTemplates": "Vorlagen aufrufen",
+    "myApproach": "Mein Ansatz",
+    "exploreToolbox": "Werkzeugkasten erkunden",
+    "exploreOtherPaths": "Andere Wege erkunden"
   },
   "footer": {
-    "description": "Stärkung von Schulen durch partizipative Führung, Digitalisierung und organisatorische Exzellenz.",
     "email": "E-Mail: hello@schulentwickler.at",
     "copyright": "© 2025 SchulEntwickler.at. Alle Rechte vorbehalten."
   }

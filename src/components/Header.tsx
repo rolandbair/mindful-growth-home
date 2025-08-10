@@ -8,7 +8,7 @@ import { Button } from "@/components/ui/button";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const navigate = useNavigate();
-  const { t, changeLanguage, currentLanguage } = useTranslation();
+  const { t, changeLanguage, currentLanguage } = useTranslation('common');
 
   const handleNavigation = (path: string, section?: string) => {
     if (section) {
@@ -53,12 +53,13 @@ const Header = () => {
             >
               {t('navigation.home')}
             </button>
-            <button 
-              onClick={() => handleNavigation("/", "services")} 
+            <Link 
+              to="/schulentwicklung" 
+              onClick={() => window.scrollTo(0, 0)}
               className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
             >
-              {t('navigation.services')}
-            </button>
+              {t('navigation.schoolDevelopment')}
+            </Link>
             <Link 
               to="/ueber-uns" 
               onClick={() => window.scrollTo(0, 0)}
@@ -66,9 +67,13 @@ const Header = () => {
             >
               {t('navigation.about')}
             </Link>
-            <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+            <Link 
+              to="/consultation" 
+              onClick={() => window.scrollTo(0, 0)}
+              className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+            >
               {t('navigation.contact')}
-            </a>
+            </Link>
             <Button
               variant="outline"
               size="sm"
@@ -97,12 +102,13 @@ const Header = () => {
               >
                 {t('navigation.home')}
               </button>
-              <button 
-                onClick={() => handleNavigation("/", "services")} 
-                className="text-gray-700 hover:text-blue-600 transition-colors font-medium text-left"
+              <Link 
+                to="/schulentwicklung" 
+                onClick={() => { window.scrollTo(0, 0); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
               >
-                {t('navigation.services')}
-              </button>
+                {t('navigation.schoolDevelopment')}
+              </Link>
               <Link 
                 to="/ueber-uns" 
                 onClick={() => { window.scrollTo(0, 0); setIsMenuOpen(false); }}
@@ -110,9 +116,13 @@ const Header = () => {
               >
                 {t('navigation.about')}
               </Link>
-              <a href="mailto:hello@schulentwickler.at" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              <Link 
+                to="/consultation" 
+                onClick={() => { window.scrollTo(0, 0); setIsMenuOpen(false); }}
+                className="text-gray-700 hover:text-blue-600 transition-colors font-medium"
+              >
                 {t('navigation.contact')}
-              </a>
+              </Link>
               <Button
                 variant="outline"
                 size="sm"

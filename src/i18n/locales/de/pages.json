@@ -2,7 +2,7 @@
 {
   "partizipativeLeadership": {
     "title": "Partizipative Führung",
-    "description": "Entwickeln Sie Führungsstrukturen, die auf Partizipation, Zusammenarbeit und geteilter Verantwortung basieren. Unsere Beratung hilft Ihnen dabei, eine Führungskultur zu schaffen, die alle Stimmen einbezieht und gemeinsame Entscheidungsfindung fördert.",
+    "description": "Entwickeln Sie Führungsstrukturen, die auf Partizipation, Zusammenarbeit und geteilter Verantwortung basieren. Die Beratung hilft Ihnen dabei, eine Führungskultur zu schaffen, die alle Stimmen einbezieht und gemeinsame Entscheidungsfindung fördert.",
     "whatIs": {
       "title": "Was ist Partizipative Führung?",
       "description1": "Partizipative Führung ist ein Führungsansatz, der auf geteilter Macht, gemeinsamer Entscheidungsfindung und aktiver Beteiligung aller Beteiligten basiert. Im Schulkontext bedeutet dies, dass Lehrkräfte, Schüler:innen, Eltern und die Gemeinde in wichtige Entscheidungen einbezogen werden.",
@@ -24,7 +24,7 @@
       }
     },
     "approach": {
-      "title": "Unser Beratungsansatz",
+      "title": "Mein Beratungsansatz",
       "step1": {
         "title": "Analyse der aktuellen Führungsstrukturen",
         "description": "Bewertung bestehender Entscheidungsprozesse und Führungskulturen in Ihrer Schule."
@@ -54,14 +54,10 @@
     "overview": {
       "title": "Digitale Transformation für Schulen",
       "description1": "Digitalisierung in der Bildung geht weit über die reine Technologie hinaus. Es geht darum, Lehr- und Lernprozesse zu verbessern, administrative Abläufe zu optimieren und neue Möglichkeiten für kollaboratives Arbeiten zu schaffen.",
-      "description2": "Unsere Expertise hilft Ihnen dabei, digitale Tools sinnvoll zu integrieren und dabei die pädagogischen Ziele stets im Fokus zu behalten."
+      "description2": "Meine Expertise hilft Ihnen dabei, digitale Tools sinnvoll zu integrieren und dabei die pädagogischen Ziele stets im Fokus zu behalten."
     },
     "areas": {
-      "title": "Unsere Digitalisierungsbereiche",
-      "infrastructure": {
-        "title": "Infrastruktur",
-        "description": "WLAN, Hardware und technische Grundausstattung für moderne Bildung"
-      },
+      "title": "Digitalisierungsbereiche",
       "communication": {
         "title": "Kommunikationsplattformen",
         "description": "Implementierung von digitalen Kommunikations- und Kollaborationstools"
@@ -76,7 +72,7 @@
       }
     },
     "process": {
-      "title": "Unser Implementierungsprozess",
+      "title": "Der Implementierungsprozess",
       "step1": {
         "title": "Bestandsaufnahme und Bedarfsanalyse",
         "description": "Evaluation der aktuellen technischen Ausstattung und Identifikation der Digitalisierungsziele."
@@ -106,14 +102,14 @@
   },
   "organizationalDevelopment": {
     "title": "Organisationsentwicklung",
-    "description": "Optimieren Sie Struktur, Prozesse und Kultur Ihrer Schule für nachhaltigen Erfolg. Unsere systemische Beratung hilft Ihnen dabei, eine lernende Organisation zu werden, die sich kontinuierlich weiterentwickelt und an verändernde Anforderungen anpasst.",
+    "description": "Optimieren Sie Struktur, Prozesse und Kultur Ihrer Schule für nachhaltigen Erfolg. Die systemische Beratung hilft Ihnen dabei, eine lernende Organisation zu werden, die sich kontinuierlich weiterentwickelt und an verändernde Anforderungen anpasst.",
     "whatIs": {
       "title": "Was ist Organisationsentwicklung?",
       "description1": "Organisationsentwicklung ist ein geplanter, systematischer und langfristiger Prozess zur Verbesserung der Leistungsfähigkeit und Anpassungsfähigkeit einer Organisation. Im Schulkontext bedeutet dies die kontinuierliche Weiterentwicklung aller Aspekte des Schullebens.",
       "description2": "Dabei stehen die Menschen im Mittelpunkt: Lehrkräfte, Schüler:innen, Eltern und alle anderen Beteiligten werden aktiv in den Entwicklungsprozess einbezogen."
     },
     "areas": {
-      "title": "Unsere Entwicklungsbereiche",
+      "title": "Die Entwicklungsbereiche",
       "processes": {
         "title": "Prozesse",
         "description": "Optimierung von Arbeitsabläufen und Entscheidungsstrukturen"
@@ -159,7 +155,7 @@
       }
     },
     "successFactors": {
-      "title": "Erfolgsfaktoren unserer Beratung",
+      "title": "Erfolgsfaktoren der Beratung",
       "participation": {
         "title": "Partizipation",
         "description": "Alle Beteiligten werden aktiv in den Entwicklungsprozess einbezogen und gestalten mit."
@@ -209,7 +205,7 @@
       "profileImageAlt": "Profilbild wird bald hochgeladen"
     },
     "mission": {
-      "title": "Unsere Mission",
+      "title": "Die Mission",
       "description": "Wir glauben, dass jede Schule das Potenzial hat, eine Umgebung zu schaffen, in der Schüler:innen, Lehrkräfte und die gesamte Schulgemeinschaft gedeihen können. Durch die Verbindung von Technologie-Expertise mit pädagogischer Praxis unterstützen wir Schulen dabei, moderne Bildungskonzepte erfolgreich umzusetzen.",
       "participation": {
         "title": "Partizipation",
@@ -354,6 +350,483 @@
         "share": "Teilen",
         "close": "Schließen"
       }
+    }
+  },
+  "schoolDevelopment": {
+    "title": "Schulentwicklungsphilosophie",
+    "subtitle": "Mein umfassender Ansatz zur Transformation von Bildungseinrichtungen durch partizipative Führung, strategische Digitalisierung und evidenzbasierte Organisationsentwicklung.",
+    "philosophy": {
+      "title": "Mein Ansatz zur Schulentwicklung",
+      "participatory": {
+        "title": "Das partizipative Fundament",
+        "description": "Schulentwicklung ist nichts, was MIT einer Schule passiert—es ist etwas, das AUS einer Schule hervorgeht, wenn die richtigen Bedingungen geschaffen werden. Mein Ansatz basiert auf partizipativer Führung, weil nachhaltige Veränderung die aktive Beteiligung aller Stakeholder erfordert: Lehrer, Schüler, Eltern und die gesamte Gemeinschaft."
+      },
+      "digital": {
+        "title": "Über Technologieintegration hinaus",
+        "description": "Während digitale Transformation von entscheidender Bedeutung ist, habe ich gelernt, dass Technologie ohne pädagogische Innovation nur teure Ausrüstung ist. Echte Digitalisierung in der Bildung bedeutet, neu zu überdenken, wie wir lehren, lernen und uns verbinden. Es geht darum, Technologie zu nutzen, um menschliches Potenzial zu verstärken, nicht menschliche Verbindungen zu ersetzen."
+      },
+      "systems": {
+        "title": "Systemdenkansatz",
+        "description": "Schulen sind komplexe adaptive Systeme. Kleine Veränderungen in einem Bereich können Welleneffekte in der gesamten Organisation erzeugen. Meine Methodik konzentriert sich darauf, Hebelpunkte zu identifizieren, wo minimaler Aufwand maximale positive Wirkung erzeugen kann. Diese Systemperspektive prägt jede Intervention, die ich entwickle."
+      },
+      "evidence": {
+        "title": "Evidenzbasierte Praxis",
+        "description": "Jede Empfehlung, die ich gebe, basiert auf Forschung und wird durch die Praxis verfeinert. Ich kombiniere akademische Erkenntnisse aus Organisationspsychologie, Bildungsführung und Change Management mit realer Erfahrung aus Dutzenden von Schultransformationsprojekten in Österreich und Deutschland."
+      }
+    },
+    "books": {
+      "title": "Essenzielle Lektüre für Schulleiter",
+      "subtitle": "Bücher, die mein Denken und meine Praxis in der Schulentwicklung geprägt haben",
+      "completeList": "Vollständige Leseliste ansehen"
+    },
+    "toolbox": {
+      "title": "Schulentwicklungs-Toolbox",
+      "subtitle": "Wählen Sie Ihren Weg durch die umfassende Sammlung von Schulentwicklungstools und -methoden. Jeder Pfad ist für verschiedene Kontexte und Transformationsziele konzipiert.",
+      "includedTools": "Enthaltene Werkzeuge:",
+      "customPath": {
+        "title": "Benötigen Sie einen maßgeschneiderten Pfad?",
+        "description": "Jede Schule ist einzigartig. Lassen Sie uns zusammenarbeiten, um einen Entwicklungspfad zu entwerfen, der zu Ihrem spezifischen Kontext, Ihren Ressourcen und Zielen passt."
+      }
+    }
+  },
+  "bookRecommendations": {
+    "title": "Essenzielle Lektüre für Schulentwicklung",
+    "subtitle": "Eine kuratierte Sammlung von Büchern, die meinen Ansatz zu Bildungsführung, organisatorischem Wandel und Schultransformation geprägt haben. Jede Empfehlung enthält meine persönlichen Erkenntnisse und praktischen Anwendungen.",
+    "categories": {
+      "all": "Alle Bücher",
+      "leadership": "Führung",
+      "digital": "Digitale Transformation",
+      "change": "Change Management",
+      "systems": "Systemdenken"
+    },
+    "labels": {
+      "myTake": "Meine Einschätzung:",
+      "keyInsights": "Wichtige Erkenntnisse:",
+      "bestFor": "Geeignet für:",
+      "practicalApplication": "Praktische Anwendung:"
+    },
+    "cta": {
+      "title": "Möchten Sie über diese Ideen diskutieren?",
+      "description": "Ich liebe es, mich mit anderen Pädagogen über diese Bücher und ihre praktischen Anwendungen in der Schulentwicklung auszutauschen.",
+      "buttons": {
+        "startConversation": "Gespräch beginnen",
+        "bookDiscussion": "Lesediskussion buchen"
+      }
+    }
+  },
+  "toolbox": {
+    "title": "Schulentwicklungs-Toolbox",
+    "subtitle": "Praktische Tools, Frameworks und Ressourcen zur Transformation von Bildungsorganisationen. Jedes Tool enthält detaillierte Implementierungsleitfäden, Materiallisten und Links zu bearbeitbaren Google Docs-Vorlagen.",
+    "search": {
+      "placeholder": "Tools, Tags oder Kategorien suchen...",
+      "noResults": {
+        "title": "Keine Tools gefunden",
+        "description": "Versuchen Sie, Ihre Suchbegriffe oder Kategoriefilter anzupassen."
+      }
+    },
+    "featured": "Empfohlene Tools",
+    "stats": {
+      "toolsAvailable": "Tools verfügbar",
+      "duration": "Dauer",
+      "participants": "Teilnehmer"
+    },
+    "labels": {
+      "keyOutcomes": "Wichtige Ergebnisse:",
+      "moreOutcomes": "weitere Ergebnisse"
+    },
+    "cta": {
+      "title": "Benötigen Sie Hilfe bei der Implementierung dieser Tools?",
+      "description": "Ich biete praktische Unterstützung bei der Implementierung aller Tools in Ihrem Schulkontext. Von Moderation bis Training - lassen Sie uns diese Tools für Ihre einzigartige Situation arbeiten lassen.",
+      "buttons": {
+        "requestSupport": "Implementierungsunterstützung anfragen"
+      }
+    }
+  },
+  "toolDetail": {
+    "notFound": {
+      "title": "Tool nicht gefunden",
+      "description": "Das angeforderte Tool konnte nicht gefunden werden."
+    },
+    "tabs": {
+      "overview": "Überblick",
+      "steps": "Schritte",
+      "tips": "Tipps",
+      "challenges": "Herausforderungen"
+    },
+    "labels": {
+      "keyOutcomes": "Wichtige Ergebnisse",
+      "materialsNeeded": "Benötigte Materialien",
+      "prerequisites": "Voraussetzungen",
+      "activities": "Aktivitäten:",
+      "tags": "Tags",
+      "relatedTools": "Verwandte Tools"
+    },
+    "support": {
+      "title": "Benötigen Sie Hilfe?",
+      "description": "Ich biete praktische Unterstützung bei der Implementierung dieses Tools in Ihrem Schulkontext.",
+      "buttons": {
+        "emailSupport": "E-Mail für Unterstützung"
+      }
+    }
+  },
+  "toolboxPath": {
+    "notFound": {
+      "title": "Pfad nicht gefunden",
+      "description": "Der angeforderte Entwicklungspfad konnte nicht gefunden werden."
+    },
+    "labels": {
+      "pathOverview": "Pfad-Überblick",
+      "successStories": "Erfolgsgeschichten",
+      "implementationSteps": "Implementierungsschritte",
+      "toolsUsed": "Verwendete Tools:",
+      "keyOutcomes": "Wichtige Ergebnisse:",
+      "prerequisites": "Voraussetzungen:"
+    },
+    "gettingStarted": {
+      "title": "Bereit, diesen Pfad zu beginnen?",
+      "description": "Ich biete praktische Unterstützung bei der Implementierung dieses Entwicklungspfads in Ihrer Schule. Von der ersten Planung bis zur abschließenden Bewertung bin ich bei jedem Schritt an Ihrer Seite.",
+      "pathGuide": {
+        "title": "Pfad-Leitfaden",
+        "description": "Detaillierter Implementierungsleitfaden mit Zeitplänen, Vorlagen und Checklisten."
+      },
+      "toolTemplates": {
+        "title": "Tool-Vorlagen",
+        "description": "Bearbeitbare Google Docs-Vorlagen für alle in diesem Pfad erwähnten Tools."
+      },
+      "implementationSupport": {
+        "title": "Implementierungsunterstützung",
+        "description": "Persönliche Beratung und kontinuierliche Unterstützung während Ihrer gesamten Reise."
+      },
+      "buttons": {
+        "exploreOtherPaths": "Andere Pfade erkunden"
+      }
+    }
+  },
+  "consultation": {
+    "title": "Beratung vereinbaren",
+    "subtitle": "Erhalten Sie personalisierte Anleitung für Ihre Schulentwicklungsreise. Ob Sie strategische Planung, Tool-Implementierungsunterstützung oder Führungscoaching benötigen, ich bin hier, um zu helfen.",
+    "types": {
+      "title": "Beratungsoptionen",
+      "subtitle": "Wählen Sie die Art der Unterstützung, die am besten zu Ihren Bedürfnissen passt",
+      "strategy": {
+        "title": "Schulentwicklungsstrategie",
+        "description": "Umfassende Beratung für langfristige Schultransformation"
+      },
+      "implementation": {
+        "title": "Tool-Implementierungsunterstützung",
+        "description": "Praktische Hilfe bei der Implementierung spezifischer Tools aus der Toolbox"
+      },
+      "coaching": {
+        "title": "Führungscoaching",
+        "description": "Einzelcoaching für Schulleiter"
+      },
+      "facilitation": {
+        "title": "Team-Workshop-Moderation",
+        "description": "Professionelle Moderation für Teamentwicklungs-Workshops"
+      }
+    },
+    "consultationTypes": [
+      {
+        "id": "school-development-strategy",
+        "title": "Schulentwicklungsstrategie",
+        "description": "Umfassende Beratung für langfristige Schultransformation",
+        "duration": "2-3 Stunden",
+        "format": "Persönlich oder Videoanruf"
+      },
+      {
+        "id": "tool-implementation",
+        "title": "Tool-Implementierungsunterstützung",
+        "description": "Praktische Hilfe bei der Implementierung spezifischer Tools aus der Toolbox",
+        "duration": "1-2 Stunden",
+        "format": "Videoanruf oder Workshop"
+      },
+      {
+        "id": "leadership-coaching",
+        "title": "Führungscoaching",
+        "description": "Einzelcoaching für Schulleiter",
+        "duration": "1 Stunde",
+        "format": "Videoanruf"
+      },
+      {
+        "id": "team-facilitation",
+        "title": "Team-Workshop-Moderation",
+        "description": "Professionelle Moderation für Teamentwicklungs-Workshops",
+        "duration": "Halber oder ganzer Tag",
+        "format": "Persönlich"
+      }
+    ],
+    "availableTools": [
+      "Team-Building-Toolkit",
+      "Digitale Bereitschaftsbewertung",
+      "Visionsentwicklungs-Workshop",
+      "Kommunikationsrahmen",
+      "Change-Management-Framework",
+      "Programm für digitale Lehrkompetenz",
+      "360°-Schulanalyse",
+      "Schnelle-Erfolge-Bewertung"
+    ],
+    "labels": {
+      "duration": "Dauer:",
+      "format": "Format:"
+    },
+    "form": {
+      "title": "Ihre Beratung anfragen",
+      "subtitle": "Erzählen Sie mir von Ihrer Schule und welche Art von Unterstützung Sie suchen",
+      "cardTitle": "Beratungsanfrage-Formular",
+      "cardDescription": "Bitte geben Sie so viele Details wie möglich an, damit ich mich auf unser Gespräch vorbereiten kann",
+      "fields": {
+        "name": {
+          "label": "Vollständiger Name",
+          "required": true
+        },
+        "email": {
+          "label": "E-Mail-Adresse",
+          "required": true
+        },
+        "school": {
+          "label": "Schule/Organisation",
+          "required": true
+        },
+        "role": {
+          "label": "Ihre Rolle",
+          "required": true,
+          "placeholder": "Wählen Sie Ihre Rolle",
+          "options": {
+            "principal": "Direktor/Leiter",
+            "vicePrincipal": "Stellvertretender Direktor",
+            "departmentHead": "Abteilungsleiter",
+            "teacher": "Lehrer",
+            "itCoordinator": "IT-Koordinator",
+            "consultant": "Externer Berater",
+            "boardMember": "Vorstandsmitglied",
+            "other": "Andere"
+          }
+        },
+        "consultationType": {
+          "label": "Art der Beratung",
+          "required": true,
+          "placeholder": "Beratungstyp auswählen"
+        },
+        "specificTools": {
+          "label": "Spezifische Tools von Interesse (optional)"
+        },
+        "timeframe": {
+          "label": "Bevorzugter Zeitrahmen",
+          "placeholder": "Wann möchten Sie sich treffen?",
+          "options": {
+            "thisWeek": "Diese Woche",
+            "nextWeek": "Nächste Woche",
+            "withinMonth": "Innerhalb des nächsten Monats",
+            "flexible": "Ich bin flexibel"
+          }
+        },
+        "preferredContact": {
+          "label": "Bevorzugte Kontaktmethode",
+          "placeholder": "Wie soll ich Sie kontaktieren?",
+          "options": {
+            "email": "E-Mail",
+            "phone": "Telefon",
+            "videoCall": "Videoanruf",
+            "inPerson": "Persönliches Treffen"
+          }
+        },
+        "budget": {
+          "label": "Budgetbereich (optional)",
+          "placeholder": "Wie hoch ist Ihr Budgetbereich?",
+          "options": {
+            "under500": "Unter €500",
+            "500to1500": "€500 - €1.500",
+            "1500to5000": "€1.500 - €5.000",
+            "5000plus": "€5.000+",
+            "discuss": "Lass uns besprechen"
+          }
+        },
+        "description": {
+          "label": "Erzählen Sie mir von Ihrer Situation",
+          "placeholder": "Welchen Herausforderungen stehen Sie gegenüber? Welche Ziele haben Sie? Welche spezifische Unterstützung suchen Sie?",
+          "required": true
+        }
+      },
+      "submitButton": "Beratungsanfrage senden"
+    },
+    "whatToExpect": {
+      "title": "Was Sie erwarten können",
+      "steps": {
+        "response": {
+          "title": "1. Erste Antwort",
+          "description": "Ich antworte innerhalb von 24 Stunden, um den Erhalt zu bestätigen und eventuell klärende Fragen zu stellen."
+        },
+        "scheduling": {
+          "title": "2. Terminplanung",
+          "description": "Wir finden einen Termin, der für uns beide passt, normalerweise innerhalb von 1-2 Wochen."
+        },
+        "consultation": {
+          "title": "3. Beratung",
+          "description": "Wir führen ein fokussiertes Gespräch über Ihre Bedürfnisse und entwickeln konkrete nächste Schritte."
+        }
+      }
+    }
+  },
+  "schoolDevelopmentData": {
+    "books": [
+      {
+        "title": "Schule 2.0 bauen: Wie man die Schulen schafft, die wir brauchen",
+        "author": "Chris Lehmann",
+        "category": "Digitale Transformation",
+        "myTake": "Lehmanns Vision der Technologieintegration entspricht meiner Erfahrung. Seine Betonung des forschungsbasierten Lernens und der authentischen Bewertung stimmt perfekt mit partizipativen Führungsprinzipien überein."
+      },
+      {
+        "title": "Die Schulen, die unsere Kinder verdienen",
+        "author": "Alfie Kohn",
+        "category": "Bildungsphilosophie",
+        "myTake": "Kohn stellt traditionelle Bildungsannahmen in Frage, die meinen Ansatz zur Organisationsentwicklung widerspiegeln. Seine Kritik an standardisierten Tests beeinflusst besonders meine Arbeit zur authentischen Bewertung."
+      },
+      {
+        "title": "Verteilte Führung in der Praxis",
+        "author": "James Spillane",
+        "category": "Führung",
+        "myTake": "Dieser forschungsbasierte Ansatz zu verteilter Führung bildet die theoretische Grundlage für einen Großteil meiner partizipativen Führungsberatung. Wesentliche Lektüre zum Verständnis systemischer Veränderungen."
+      }
+    ],
+    "paths": [
+      {
+        "title": "Schnellstart-Pfad",
+        "description": "Für Schulen, die sofortige Wirkung mit minimalen Ressourcen benötigen",
+        "duration": "2-3 Monate",
+        "slug": "quick-start-path",
+        "tools": ["Team-Building-Toolkit", "Kommunikationsrahmen", "Schnelle-Erfolge-Bewertung"]
+      },
+      {
+        "title": "Umfassende Transformation",
+        "description": "Vollständige Organisationsentwicklungsreise",
+        "duration": "12-18 Monate",
+        "slug": "comprehensive-transformation",
+        "tools": ["360°-Schulanalyse", "Visionsentwicklungs-Workshop", "Change-Management-Framework", "Führungsentwicklungsprogramm"]
+      },
+      {
+        "title": "Digitaler Integrationspfad",
+        "description": "Technologiefokussierte Entwicklung mit pädagogischer Ausrichtung",
+        "duration": "6-9 Monate",
+        "slug": "digital-integration-path",
+        "tools": ["Digitale Bereitschaftsbewertung", "EdTech-Implementierungsleitfaden", "Programm für digitale Lehrkompetenz"]
+      }
+    ]
+  },
+  "bookRecommendationsData": {
+    "categories": {
+      "leadership": [
+        {
+          "title": "Verteilte Führung in der Praxis",
+          "author": "James Spillane",
+          "year": "2006",
+          "isbn": "978-0807747094",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Distributed Leadership in Practice",
+          "keyInsights": [
+            "Führung ist eine Praxis, die über Menschen, Werkzeuge und Situationen verteilt ist",
+            "Fokus auf Führungsinteraktionen statt auf einzelne Führungskräfte",
+            "Organisationsroutinen prägen die Führungsverteilung"
+          ],
+          "myTake": "Dieses Buch hat grundlegend verändert, wie ich Führungsentwicklung in Schulen angehe. Spillanes forschungsbasierter Rahmen bietet die theoretische Grundlage für partizipative Führung. Seine Erkenntnis, dass Führung über Interaktionen verteilt ist, nicht nur über Einzelpersonen, beeinflusst jede Führungsintervention, die ich entwerfe.",
+          "bestFor": "Schulleiter, die bereit sind, über hierarchische Modelle hinauszugehen",
+          "practicalApplication": "Verwenden Sie die Linse der verteilten Führung, um die aktuellen Führungspraktiken Ihrer Schule zu analysieren. Identifizieren Sie, wo Führung natürlich entsteht und wie diese verteilten Führungsaktivitäten unterstützt werden können."
+        },
+        {
+          "title": "Die Schulen, die unsere Kinder verdienen",
+          "author": "Alfie Kohn",
+          "year": "1999",
+          "isbn": "978-0618083459", 
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Schools Our Children Deserve",
+          "keyInsights": [
+            "Standardisierte Tests untergraben authentisches Lernen",
+            "Wettbewerb in der Bildung ist kontraproduktiv",
+            "Fokus auf intrinsische Motivation statt externe Belohnungen"
+          ],
+          "myTake": "Kohns Kritik an traditionellen Bildungspraktiken resoniert tief mit meinem systemischen Denkansatz. Seine Argumente gegen standardisierte Tests und kompetitive Benotung stimmen mit partizipativen Führungsprinzipien überein. Seine Lösungen fehlen jedoch manchmal praktische Umsetzungsstrategien für reale Einschränkungen.",
+          "bestFor": "Pädagogen, die traditionelle Bewertungs- und Motivationsstrategien hinterfragen",
+          "practicalApplication": "Beginnen Sie klein mit Experimenten zu narrativen Bewertungen und kollaborativen Lernstrukturen. Dokumentieren Sie die Auswirkungen auf Schülerengagement und Lernqualität."
+        }
+      ],
+      "digital": [
+        {
+          "title": "Schule 2.0 bauen: Wie man die Schulen schafft, die wir brauchen",
+          "author": "Chris Lehmann",
+          "year": "2013",
+          "isbn": "978-1118694572",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Building School 2.0 How to Create the Schools We Need",
+          "keyInsights": [
+            "Technologie sollte großartiges Unterrichten verstärken, nicht ersetzen",
+            "Forschungsbasiertes Lernen wird durch digitale Werkzeuge verbessert",
+            "Schulkultur muss sich parallel zur Technologieintegration entwickeln"
+          ],
+          "myTake": "Lehmann erfasst perfekt, warum so viele Technologie-Initiativen in Schulen scheitern. Seine Betonung auf forschungsbasiertes Lernen und authentische Bewertung bietet einen pädagogischen Rahmen für sinnvolle Digitalisierung. Dieses Buch schlägt die Brücke zwischen Bildungsphilosophie und praktischer Technologieimplementierung.",
+          "bestFor": "Schulen, die digitale Transformationsreisen beginnen",
+          "practicalApplication": "Bevor Sie Technologie kaufen, stellen Sie Lehmanns Schlüsselfrage: 'Wie wird dies großartiges Unterrichten verstärken?' Verwenden Sie dies als Filter für alle EdTech-Entscheidungen."
+        },
+        {
+          "title": "Der technisch versierte Administrator",
+          "author": "Steven Anderson",
+          "year": "2016",
+          "isbn": "978-1564843579",
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Tech-Savvy Administrator",
+          "keyInsights": [
+            "Administrator-Technologiekompetenz beeinflusst direkt die Schulkultur",
+            "Soziale Medien können Schul-Community-Verbindungen verbessern",
+            "Digitale Bürgerschaften erfordern proaktive Führung"
+          ],
+          "myTake": "Anderson bietet praktische Anleitung für Schulleiter, die sich von Technologie überwältigt fühlen. Sein schrittweiser Ansatz zum Aufbau administrativer Tech-Kompetenz ist von unschätzbarem Wert. Das Buch konzentriert sich jedoch manchmal zu sehr auf Werkzeuge statt auf pädagogische Integration.",
+          "bestFor": "Schuladministratoren, die ihr eigenes Technologievertrauen aufbauen",
+          "practicalApplication": "Beginnen Sie mit Andersons Ansatz für persönliche Lernnetzwerke. Nutzen Sie Twitter und LinkedIn, um sich mit Bildungstechnologie-Führern zu verbinden und von ihren Erfahrungen zu lernen."
+        }
+      ],
+      "change": [
+        {
+          "title": "Wechseln: Wie man Dinge ändert, wenn Veränderung schwer ist",
+          "author": "Chip Heath & Dan Heath",
+          "year": "2010",
+          "isbn": "978-0385528757",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Switch How to Change Things When Change Is Hard",
+          "keyInsights": [
+            "Den Reiter lenken (rationaler Verstand), den Elefanten motivieren (emotionaler Verstand), den Pfad formen (Umgebung)",
+            "Helle Flecken finden und klonen",
+            "Veränderung unvermeidlich erscheinen lassen durch sozialen Beweis"
+          ],
+          "myTake": "Obwohl nicht spezifisch über Bildung, ist dies das praktischste Buch über organisatorischen Wandel, das ich angetroffen habe. Das Framework der Heath-Brüder gilt direkt für Schultransformation. Ich verwende ihren Bright-Spots-Ansatz in jedem Schulentwicklungsprojekt.",
+          "bestFor": "Jeder, der Veränderungen in Bildungseinrichtungen führt",
+          "practicalApplication": "Identifizieren Sie Lehrer, die bereits gewünschte Veränderungen umsetzen (helle Flecken) und studieren Sie, was sie erfolgreich macht. Schaffen Sie Bedingungen für andere Lehrer, diese Praktiken natürlich zu übernehmen."
+        },
+        {
+          "title": "Veränderung führen",
+          "author": "John Kotter",
+          "year": "1996",
+          "isbn": "978-0875847474",
+          "thaliaLink": "https://www.thalia.at/suche?sq=Leading Change John Kotter",
+          "keyInsights": [
+            "Dringlichkeit schaffen vor Veränderungsversuchen",
+            "Eine mächtige Führungskoalition bilden",
+            "Die Vision wiederholt und konsistent kommunizieren"
+          ],
+          "myTake": "Kotters 8-Schritte-Prozess bietet einen soliden Rahmen für großangelegte Schultransformation. Seine Betonung auf Dringlichkeit und Koalitionsbildung hat sich in meiner Arbeit als wesentlich erwiesen. Das Modell kann jedoch zu linear für die komplexe, adaptive Natur von Bildungsorganisationen wirken.",
+          "bestFor": "Schulen, die umfassende Transformationsinitiativen unternehmen",
+          "practicalApplication": "Verwenden Sie Kotters Schritte als Checkliste, bleiben Sie aber flexibel in der Umsetzung. Achten Sie besonders auf die Schritte 1-4; die meisten Schulveränderungsbemühungen scheitern, weil diese Grundlagen nicht richtig etabliert sind."
+        }
+      ],
+      "systems": [
+        {
+          "title": "Die fünfte Disziplin",
+          "author": "Peter Senge",
+          "year": "1990",
+          "isbn": "978-0385517256",
+          "thaliaLink": "https://www.thalia.at/suche?sq=The Fifth Discipline Peter Senge",
+          "keyInsights": [
+            "Organisationen sind Systeme; kleine Veränderungen können große Ergebnisse produzieren",
+            "Mentale Modelle prägen, wie wir Erfahrungen interpretieren",
+            "Teamlernen ist vital für organisatorische Effektivität"
+          ],
+          "myTake": "Senges systemisches Denkverständnis prägt grundlegend, wie ich Schulentwicklung betrachte. Sein Konzept lernender Organisationen bietet den theoretischen Rahmen für nachhaltigen Wandel. Dieses Buch ist dicht, aber wesentlich für das Verständnis, warum einfache Lösungen in komplexen Bildungsumgebungen oft scheitern.",
+          "bestFor": "Führungskräfte, die organisatorische Komplexität verstehen möchten",
+          "practicalApplication": "Beginnen Sie mit der Kartierung der kausalen Beziehungen in den Schlüsselherausforderungen Ihrer Schule. Suchen Sie nach Hebelpunkten, wo kleine Veränderungen erhebliche Auswirkungen haben könnten."
+        }
+      ]
     }
   }
 }

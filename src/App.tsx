@@ -10,6 +10,12 @@ import PartizipativeFuehrung from "./pages/PartizipativeFuehrung";
 import Digitalisierung from "./pages/Digitalisierung";
 import Organisationsentwicklung from "./pages/Organisationsentwicklung";
 import UeberUns from "./pages/UeberUns";
+import Schulentwicklung from "./pages/Schulentwicklung";
+import BookRecommendations from "./pages/BookRecommendations";
+import SchoolDevelopmentToolbox from "./pages/SchoolDevelopmentToolbox";
+import ToolDetail from "./pages/ToolDetail";
+import ToolboxPath from "./pages/ToolboxPath";
+import Consultation from "./pages/Consultation";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +31,12 @@ const App = () => (
           <Route path="/digitalisierung" element={<Digitalisierung />} />
           <Route path="/organisationsentwicklung" element={<Organisationsentwicklung />} />
           <Route path="/ueber-uns" element={<UeberUns />} />
+          <Route path="/schulentwicklung" element={<Schulentwicklung />} />
+          <Route path="/book-recommendations" element={<BookRecommendations />} />
+          <Route path="/toolbox" element={<SchoolDevelopmentToolbox />} />
+          <Route path="/toolbox/tool/:toolId" element={<ToolDetail />} />
+          <Route path="/toolbox/:pathId" element={<ToolboxPath />} />
+          <Route path="/consultation" element={<Consultation />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
